@@ -1,7 +1,6 @@
 ============
-Installation
+Requirements
 ============
 
-Install the package with pip::
+Minimum requirements include....
 
-    $ pip install read-the-docs-template
