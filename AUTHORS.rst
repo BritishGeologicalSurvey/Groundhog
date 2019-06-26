@@ -1,7 +1,14 @@
 Authors
 -------
 
-* Eric (New contributor)
-* Anthony 
+* NERC
+* ISPRA
+* GEUS
+* GEOZS
+* CGS
+* RBINS
+* GeoInform
+* NGU
+* HGI-CGS 
 
 
