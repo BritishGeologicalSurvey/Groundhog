@@ -39,14 +39,14 @@ Using the data in GIP on other platforms
 QGIS
 ^^^^^^^^^^^^
 
-kyhdyk
+See: https://docs.qgis.org/testing/en/docs/user_manual/working_with_ogc/ogc_client_support.html# 
   
 ArcMap
 ^^^^^^^^^^^^
   
-hlcv
+See: http://desktop.arcgis.com/en/arcmap/latest/map/web-maps-and-services/about-using-ogc-service-layers.htm
   
 ArcPRO
 ^^^^^^^^^^^^
   
-ghxcgj
+See: https://pro.arcgis.com/en/pro-app/help/data/services/ogc-services.htm
