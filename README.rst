@@ -1,29 +1,23 @@
-Template
+Web Services
 ========
 
-$project will solve your problem of where to start with documentation,
+GeoERA GIP WP8 will solve your problem of how to setup web services to serve data to the GIP,
 by providing a basic explanation of how to do it easily.
 
-Look how easy it is to use:
-
-    import project
-    # Get your stuff done
-    project.do_stuff()
-
-Features
+WMS
 --------
 
 - Be awesome
 - Make things faster
 
-Installation
+WFS
 ------------
 
 Install $project by running:
 
     install project
 
-Contribute
+WCS
 ----------
 
 - Issue Tracker: github.com/$project/$project/issues
@@ -33,7 +27,9 @@ Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
+email: support@geoera.eu
+Issue Tracker: https://github.com/GeoEra-GIP/Project-Support-WP8
+
 
 License
 -------
