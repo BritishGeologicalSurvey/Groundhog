@@ -36,17 +36,17 @@ Using the data in GIP on other platforms
   
   - ArcPro
   
-  QGIS
-  ^^^^
+QGIS
+^^^^^^^^^^^^
+
+kyhdyk
   
-  kyhdyk
+ArcMap
+^^^^^^^^^^^^
   
-  ArcMap
-  ^^^^^^
+hlcv
   
-  jhlcv
+ArcPRO
+^^^^^^^^^^^^
   
-  ArcPRO
-  ^^^^^^
-  
-  ghxcgj
+ghxcgj
