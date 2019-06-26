@@ -31,5 +31,7 @@ Using the data in GIP on other platforms
 
 - Using QGIS
 - Using ESRI
+
   - ArcMap
+  
   - ArcPro
