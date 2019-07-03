@@ -1,7 +1,7 @@
-GeoERA Information Platform
+EGDI
 ========
 
-GIP will collate the results of the all the GeoERA sscience projects.
+EGDI will collate the results of the all the GeoERA sscience projects.
 
 - The portal can be accessed using most internet browsers.
 - Basic map data is called a WMS (Web Map Service)
@@ -9,10 +9,10 @@ GIP will collate the results of the all the GeoERA sscience projects.
 - The data is “served” directly from the provider organisation.
 - The provider organisation retains full ownership and responsibility and is able to change or modify data whenever necessary.
 
-Using the GIP
+Using EGDI
 --------
 
-The GIP has the following functions:
+The EGDI has the following functions:
 
 - Zoom
 - Pan
