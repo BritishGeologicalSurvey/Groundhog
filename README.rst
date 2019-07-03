@@ -1,8 +1,8 @@
 Web Services
 ========
 
-GeoERA GIP WP8 will solve your problem of how to setup web services to serve data to the GIP,
-by providing a basic explanation of how to do it easily.
+We will try to assist with the setup of web services to serve data to EGDI,
+by providing a basic explanation of how to do so easily.
 
 WMS
 --------
