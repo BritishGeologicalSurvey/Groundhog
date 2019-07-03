@@ -16,6 +16,9 @@ The EGDI has the following functions:
 
 - Zoom
 - Pan
+
+
+
 - Get Information tool
 - Help menu
 - multi-layer map view,
