@@ -1,5 +1,5 @@
-EGDI
-========
+EGDI Portal
+=============
 
 EGDI will collate the results of the all the GeoERA sscience projects.
 
@@ -10,15 +10,12 @@ EGDI will collate the results of the all the GeoERA sscience projects.
 - The provider organisation retains full ownership and responsibility and is able to change or modify data whenever necessary.
 
 Using EGDI
---------
+-----------
 
 The EGDI has the following functions:
 
 - Zoom
 - Pan
-
-
-
 - Get Information tool
 - Help menu
 - multi-layer map view,
@@ -29,8 +26,8 @@ The EGDI has the following functions:
 - brief description of the data layer
 - conditions of use information for each layer
 
-Using the data in GIP on other platforms
-------------
+Using the data in EGDI on other platforms
+------------------------------------------
 
 - Using QGIS
 - Using ESRI
