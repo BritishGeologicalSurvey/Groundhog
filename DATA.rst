@@ -30,6 +30,61 @@ Create Geopackage
 
 Should now find your geopackage where ever you selected to save it. Drag and drop it into a new QGIS window to check it's output is as expected. 
 
+Create Geopackage (alternative route)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Download GDAL
+2. Check it has GeoPackage support using `ogrinfo --formats`
+
+You should have something like `GPKG -raster,vector- (rw+vs): GeoPackage`
+
+and also check that your input file format is listed
+
+3. You can check what options you have to create a GPKG with:
+
+`ogrinfo --format GPKG`
+
+Help on options for GeoPackage can can be found at:
+
+https://gdal.org/drivers/vector/gpkg.html
+
+and 
+
+https://gdal.org/drivers/raster/gpkg.html
+
+and
+
+https://gdal.org/programs/ogr2ogr.html
+
+4. use `ogr2oger` to create and update your GeoPackage
+
+For example to add a directory of shapefiles use:
+
+`ogr2ogr -f "GPKG" filename.gpkg ./path/to/dir`
+
+and to add data to this geopackage (say from an Oracle table) you could use:
+
+`ogr2ogr -f "GPKG" filename.gpkg oraSource.ovf -nln my_new_layer_name -update"`
+
+Where `oraSource.ovf` is a virtual layer containing information about the Oracle database like:
+
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <OGRVRTDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://ogc2.bgs.ac.uk/xs/ogrvrt.xsd">
+        <OGRVRTLayer name="mintell">
+            <SrcDataSource>OCI:USER/Password@//host:port/sid</SrcDataSource>
+            <SrcSQL>
+                SELECT *
+                FROM PUBLISHED.XXX
+            </SrcSQL>
+            <GeometryType>wkbNone</GeometryType>
+        </OGRVRTLayer>
+    </OGRVRTDataSource>
+
+
+
+
 Providing Web Services
 ----------------------
 
