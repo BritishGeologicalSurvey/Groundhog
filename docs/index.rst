@@ -8,7 +8,7 @@ Contents:
    :glob:
 
   data.rst
-  metadata.rts
+  metadata.rst
   portal.rst
   authors.rst
 
