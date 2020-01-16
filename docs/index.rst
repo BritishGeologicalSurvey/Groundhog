@@ -7,9 +7,10 @@ Contents:
    :maxdepth: 3
    :glob:
 
-   *
-
-
+  docs/data.rst
+  docs/metadata.rts
+  docs/portal.rst
+  docs/authors.rst
 
 Indices and tables
 ==================
