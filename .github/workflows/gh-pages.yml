@@ -30,6 +30,6 @@ jobs:
     - name: deploy
       uses: peaceiris/actions-gh-pages@v2
       env:
-        PERSONAL_TOKEN: ${{ secrets.ghpagesdk }}
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ghpagesdk }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: docs/_build/html
