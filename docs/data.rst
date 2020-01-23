@@ -1,10 +1,10 @@
-Providing Data
-==============
+Providing your Data
+====================
 
 Data can be supplied to the GIP in 3 ways
 
-- Providing GIS data (GeoPackage)
-- Providing OGC Web Services
+- Providing GIS data (GeoPackage) to EGDI
+- Hosting your own OGC Web Services
 - Providing secure Database access
 
 Providing GIS Data
