@@ -1,3 +1,3 @@
 # GeoERA_GIP_Docs
 
-Documentation - https://geoera-gip-docs.readthedocs.io/en/latest/
+Documentation - https://geoera-gip.github.io/GeoERA_GIP_Docs/
