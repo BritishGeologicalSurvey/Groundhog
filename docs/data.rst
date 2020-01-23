@@ -68,6 +68,7 @@ and to add data to this geopackage (say from an Oracle table) you could use:
 
 Where `oraSource.ovf` is a virtual layer containing information about the Oracle database like:
 
+.. code-block:: xml
 
     <?xml version="1.0" encoding="UTF-8"?>
     <OGRVRTDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -81,9 +82,6 @@ Where `oraSource.ovf` is a virtual layer containing information about the Oracle
             <GeometryType>wkbNone</GeometryType>
         </OGRVRTLayer>
     </OGRVRTDataSource>
-
-
-
 
 Providing Web Services
 ----------------------
