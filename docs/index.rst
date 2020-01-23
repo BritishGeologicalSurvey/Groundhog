@@ -5,7 +5,6 @@ Contents:
 
 .. toctree::
    :maxdepth: 3
-   :glob:
 
    data.rst
    metadata.rst
