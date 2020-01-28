@@ -1,5 +1,7 @@
-# GeoERA GIP/EGDI Documentation
+# BGS Groundhog 
 
-Hosted at: https://geoera-gip.github.io/documentation/
+Documentation
 
-Repo hosts the source for all documentation related to the project. This includes documentation on using the portal and for data providers, how to submit data to the project at the end of the science projects.   
+Hosted at: hhttps://britishgeologicalsurvey.github.io/Groundhog/
+
+Repo hosts the source for all documentation related to the project. T
