@@ -7,9 +7,8 @@ Contents:
 .. toctree::
    :maxdepth: 3
 
-   data.rst
-   metadata.rst
-   portal.rst
+   install.rst
+   use.rst
    authors.rst
 
 Indices and tables
