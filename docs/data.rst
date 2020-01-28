@@ -1,3 +1,4 @@
+====================
 Providing your Data
 ====================
 
@@ -7,12 +8,21 @@ Data can be supplied to the GIP in 3 ways
 - Hosting your own OGC Web Services
 - Providing secure Database access
 
+Hostng Webservices
+-------------------
+
+Hardware Requirements
+^^^^^^^^^^^^^^^^^^^^^^
+
+Suggested Software
+^^^^^^^^^^^^^^^^^^
+
 Providing GIS Data
 ------------------
 
 The preferred format to provide data is GeoPackage.
 
-The best support to provide GeoPackage is using QGIS 3.8 Zanzibar.
+The best support to provide GeoPackage is using QGIS 3.XX.
 
 Create Geopackage
 ^^^^^^^^^^^^^^^^^
