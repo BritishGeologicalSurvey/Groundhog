@@ -1,4 +1,5 @@
-Welcome to GeoERA GIP documentation!
+==================================================
+Welcome to BGS Groundhog documentation!
 ==================================================
 
 Contents:
