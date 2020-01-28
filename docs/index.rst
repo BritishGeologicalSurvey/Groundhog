@@ -18,6 +18,13 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+Support
+========
+
+Any issues can be raised via the Github Issues tracker - https://github.com/BritishGeologicalSurvey/Groundhog/issues
+
+
+
 Documenting the Documentation
 =============================
 
