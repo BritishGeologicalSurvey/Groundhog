@@ -1,4 +1,4 @@
-# BGS Groundhog 
+# BGS Groundhog Desktop
 
 Documentation hosted at: https://britishgeologicalsurvey.github.io/Groundhog/
 
