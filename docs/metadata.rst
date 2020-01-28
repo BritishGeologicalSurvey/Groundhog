@@ -1,3 +1,4 @@
+===================
 Providing Metadata
 ===================
 
@@ -21,3 +22,16 @@ Structured Data
 ----------------
 
 Structured data includes geospatial or 3D data in shp/gpkg format or GoCAD/Leapfrog files
+
+Providing Webservices
+^^^^^^^^^^^^^^^^^^^^^^
+
+Registering Webservices
+
+
+Providing Data to EGDI
+^^^^^^^^^^^^^^^^^^^^^^
+
+Mapping data to standards
+
+
