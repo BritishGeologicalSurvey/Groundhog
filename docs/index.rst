@@ -7,7 +7,6 @@ Contents:
 .. toctree::
    :maxdepth: 3
 
-   install.rst
    user.rst
    authors.rst
 
