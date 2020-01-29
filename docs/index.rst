@@ -8,7 +8,7 @@ Contents:
    :maxdepth: 3
 
    install.rst
-   use.rst
+   user.rst
    authors.rst
 
 Indices and tables
