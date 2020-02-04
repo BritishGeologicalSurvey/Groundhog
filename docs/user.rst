@@ -9,6 +9,8 @@ User Guide v2.0.0 (BETA)
 **© Copyright British Geological Survey (UKRI) 2019. All rights
 reserved.**
 
+HIALL!
+
 This document is intended as a general guide to the operation of the BGS
 Groundhog Desktop software (Groundhog) and no warranty is given as to
 the completeness or accuracy of the information contained within. The
