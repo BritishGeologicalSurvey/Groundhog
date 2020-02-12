@@ -12,6 +12,6 @@ We believe that you should have access to geological software which is powerful,
 
 To get started with the no-cost Community Edition of our software, please go to https://www.bgs.ac.uk/groundhog 
 
-For Groundhog Professional license keys and trials please visit LQM - https://www.lqm.co.uk/
+For Groundhog Professional license keys and trials please visit LQM - https://www.lqm.co.uk/csm
 
 
