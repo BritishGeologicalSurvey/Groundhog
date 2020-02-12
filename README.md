@@ -10,7 +10,7 @@ From the management and use of natural resources to the safe creation, regenerat
 
 We believe that you should have access to geological software which is powerful, without it being complicated or expensive. Our software is available in both no-cost "Community" and low-cost "Professional" editions. With Groundhog, our mission is to provide you with a simple, effective way of visualising and interpreting site data as well as developing conceptual and 3D digital geological models.
 
-To get started with the no-cost Community Edition of our software, please go to https://www.bgs.ac.uk/research/environmentalModelling/groundhog/groundhogDesktop.html 
+To get started with the no-cost Community Edition of our software, please go to https://www.bgs.ac.uk/groundhog 
 
 For Groundhog Professional license keys and trials please visit LQM - https://www.lqm.co.uk/
 
