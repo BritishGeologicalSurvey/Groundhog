@@ -3,7 +3,23 @@ Geological Software - Site Investigation, Conceptual Site Modelling and 3D Model
 
 *An integrated tool for geological interpretation and modelling work.*
 
-Documentation hosted at: https://britishgeologicalsurvey.github.io/Groundhog/
+Technical Documentation hosted at: https://britishgeologicalsurvey.github.io/Groundhog/
+
+- [BGS Groundhog Desktop](#bgs-groundhog-desktop)
+  * [Introduction](#introduction)
+  * [System Requirements](#system-requirements)
+  * [Features](#features)
+  * [Groundhog Community](#groundhog-community)
+    + [Boreholes](#boreholes)
+    + [Cross-Sections](#cross-sections)
+    + [Maps](#maps)
+    + [3D Graphics](#3d-graphics)
+  * [Groundhog Professional](#groundhog-professional)
+    + [Conceptual Site Models](#conceptual-site-models)
+    + [3D Geological Modelling](#3d-geological-modelling)
+  * [Pricing](#pricing)
+- [Consultancy, Customisation & Training](#consultancy--customisation---training)
+- [Support](#support)
 
 ## Introduction
 
