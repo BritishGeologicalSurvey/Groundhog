@@ -111,7 +111,6 @@ html_theme = 'sphinx_rtd_theme'
 # documentation.
 html_theme_options = {
     'style_nav_header_background': '#002E40'
-    'github_url': 'https://github.com/BritishGeologicalSurvey/Groundhog/'
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
