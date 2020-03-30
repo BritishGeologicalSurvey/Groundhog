@@ -5,7 +5,7 @@ Welcome to BGS Groundhog documentation!
 Contents:
 
 .. toctree::
-  :maxdepth: 3
+  :maxdepth: 1
   
   user.rst
   authors.rst
