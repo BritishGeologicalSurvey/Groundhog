@@ -2,11 +2,13 @@
 Welcome to BGS Groundhog documentation!
 ==================================================
 
-Contents: 
+Contents:
+
 .. toctree::
   :maxdepth: 3
-    user.rst
-	authors.rst
+  
+  user.rst
+  authors.rst
 
 Indices and Tables
 ===================
