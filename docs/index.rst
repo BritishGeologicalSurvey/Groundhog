@@ -2,27 +2,30 @@
 Welcome to BGS Groundhog documentation!
 ==================================================
 
-Contents:
+Introduction
+==============
 
-.. toctree::
-   :maxdepth: 3
+We all believe that a safe, sustainable and well-understood environment that makes best use of new and existing resources is a cornerstone of progress.
 
-   user.rst
-   authors.rst
+From the management and use of natural resources to the safe creation, regeneration and maintenance of the built environment, we understand that high-quality site investigation coupled with conceptual geological understanding is key. Software that enables you to interpret your data, create models and communicate risks and insights can take things to the next level, but such digital tools are often complex, highly specialised and costly.
 
-Indices and tables
-==================
+That's why we're developing **Groundhog Desktop**
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+We believe that you should have access to geological software which is powerful, without it being complicated or expensive. Our software is available in both no-cost "Community" and low-cost "Professional" editions. With Groundhog, our mission is to provide you with a simple, effective way of visualising and interpreting site data as well as developing conceptual and 3D digital geological models.
+
+To get started with the no-cost Community Edition of our software, please go to https://www.bgs.ac.uk/groundhog
+
+For Groundhog Professional license keys and trials please visit LQM - https://www.lqm.co.uk/csm
+
+System Requirements
+====================
+
+Windows 7 or above (64-bit). Mouse with scroll wheel (laptop trackpad NOT recommended). Dedicated graphics card recommended for optimium 3D graphics performance. May not function over network, virtual or remote-desktop type deployment platforms. Admin rights likely to be required during installation. Please ensure correct operation with your local IT administrator using a trial license to ensure satisfactory performance with your local IT policies.
 
 Support
 ========
 
 Any issues can be raised via the Github Issues tracker - https://github.com/BritishGeologicalSurvey/Groundhog/issues
-
-
 
 Documenting the Documentation
 =============================
