@@ -291,16 +291,17 @@ specific minimum system requirements to run Groundhog, but you may find
 the 3D graphics capability performs better on a computer with a
 dedicated graphics card.
 
-**IMPORTANT:** Before you begin the install you must create a workspace
-folder for Groundhog. This is where Groundhog will store configuration
-information and project data. You will need it during the install and
-you must make sure that the folder you create for this **is not** in any
-special Windows system folders such as C:\Program Files or C:\Windows,
-so make sure to place it in a normal files area where you have
-permission to create and edit files. You can place this folder on a
-network drive if you like, but be aware that Groundhog will stop working
-if your connection to the drive becomes unavailable, so it is best to
-use a local folder.
+.. Danger::
+   **IMPORTANT:** Before you begin the install you must create a workspace
+   folder for Groundhog. This is where Groundhog will store configuration
+   information and project data. You will need it during the install and
+   you must make sure that the folder you create for this **is not** in any
+   special Windows system folders such as C:\Program Files or C:\Windows,
+   so make sure to place it in a normal files area where you have
+   permission to create and edit files. You can place this folder on a
+   network drive if you like, but be aware that Groundhog will stop working
+   if your connection to the drive becomes unavailable, so it is best to
+   use a local folder.
 
 The download is in ZIP archive format which contains an installer
 executable (setup.exe). Extract the contents of the ZIP file to a
