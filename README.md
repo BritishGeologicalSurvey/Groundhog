@@ -9,16 +9,11 @@ Technical Documentation hosted at: https://britishgeologicalsurvey.github.io/Gro
 
 ### Generating the documentation
 
-Extract images to folder 
+Convert docx to rst & extract images to folder 
 ```bash
-pandoc --extract-media=appendixL_1 -s -t rst http://www.onegeology.org/wmsCookbook/appendixL_1.html -o appendixL_1.rst 
+pandoc -s Groundhog_User_Guide.docx -t rst -o userguide.rst --extract-media=media
 ```
 
-Word to RST
-
-```bash
-pandoc -s WMPGold.docx -t rst -o gold.rst 
-```
 
 
 - [BGS Groundhog Desktop](#bgs-groundhog-desktop)

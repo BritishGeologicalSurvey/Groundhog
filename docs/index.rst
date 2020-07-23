@@ -7,8 +7,9 @@ Contents:
 .. toctree::
   :maxdepth: 1
   
-  user.rst
+  userguide.rst
   authors.rst
+  
 
 Indices and Tables
 ===================
