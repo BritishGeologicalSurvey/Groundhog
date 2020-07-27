@@ -17,7 +17,7 @@ Raise an issue [Issue Tracker](https://github.com/BritishGeologicalSurvey/Ground
 
 Convert docx to rst & extract images to folder 
 ```bash
-pandoc -s Groundhog_User_Guide.docx -t rst -o userguide.rst --extract-media=media
+pandoc -s Groundhog_User_Guide.docx -t gfm -o userguide.md --extract-media=.
 ```
 
 
