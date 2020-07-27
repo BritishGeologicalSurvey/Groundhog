@@ -3979,7 +3979,7 @@ of objects.
 
 ### Clipping Controls
 
-![](./media/clipping control intro.png)After the object explorer, you will find the
+![](./media/image565.png)After the object explorer, you will find the
 **clipping controls** tab. The add button will give you two options:
 
 1.  Add new clipping Plane: this will add a new clipping plane to the
@@ -4102,7 +4102,7 @@ objects, videos and the configuration of your window.
 
 When the save button is pressed, the following dropdown box will appear.
 
-![](./media/save item intro.png)
+![](./media/image582.png)
 
 All of the options in the dropdown can be saved to their stated format
 and the possible options are as follows.
