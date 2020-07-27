@@ -3,6 +3,8 @@ h1 {
 }
 
 :root {
+    --base-font-size: 14px;
+    --theme-color   : purple;
     --zoomimage-overlay-background: rgba(0, 0, 0, 0.875);
     --main-bg-color: brown;
 }

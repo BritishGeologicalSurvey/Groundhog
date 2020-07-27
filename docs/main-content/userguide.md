@@ -1,252 +1,4 @@
-*BGS Groundhog Desktop*
-
-User Guide v2.1.0 (BETA)
-
-July 2020
-
-![](./media/image1.png)
-
-![](./media/image2.png)![](./media/image3.png)
-
-**© Copyright British Geological Survey (UKRI) 2020. All rights
-reserved.**
-
-This document is intended as a general guide to the operation of the BGS
-Groundhog Desktop software (Groundhog) and no warranty is given as to
-the completeness or accuracy of the information contained within. The
-contents of this document are subject to change without notice.
-
-Except for any third-party images and content, logos or other corporate
-branding materials, this document is licensed under the UK Open
-Government License.
-
-<http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/>
-
-Topographic basemap images used within this user guide use OS open data
-layers. Contains OS Data © Crown Copyright and Database Right.
-
-**Versions**
-
-BGS Groundhog Desktop (Groundhog) is available in two versions badged
-(1) ***Community*** and (2) ***Professional***. Community is free-to-use
-under the UK Open Government Licence. Professional has extended features
-for building conceptual and 3D site and geological models and is
-available under a commercial license via our UK commercial reseller,
-Land Quality Management Ltd. (LQM).
-
-**Contact Information**
-
-BGS Groundhog Desktop (Groundhog) is software created and maintained by
-the British Geological Survey. Further information about the development
-project, and the software download, can be found on our website.
-
-[www.bgs.ac.uk/groundhog](http://www.bgs.ac.uk/groundhog)
-
-For general enquiries about the Groundhog project, please email us.
-
-<groundhog@bgs.ac.uk>
-
-**Distribution**
-
-Licenses for Groundhog Professional are distributed by Land Quality
-Management Ltd. (LQM). Further information can be obtained via their
-website.
-
-<https://www.lqm.co.uk/csm/>
-
-<judith@lqm.co.uk>
-
-![](./media/image3.png)![](./media/image2.png)
-
-# Contents
-
-Introduction 6
-
-[About Groundhog 7](#about-groundhog)
-
-[Installation 7](#installation)
-
-[First Use 8](#first-use)
-
-[Digital License Activation 8](#digital-license-activation)
-
-[Data Objects 10](#data-objects)
-
-[Object Tree 11](#object-tree)
-
-[Site / Project Folder 11](#site-project-folder)
-
-[Models Folder 15](#models-folder)
-
-[System Objects Folder 15](#system-objects-folder)
-
-[User Interface 18](#user-interface)
-
-[Main Panels 19](#main-panels)
-
-[Main Toolbar **\[1\]** 19](#main-toolbar-1)
-
-[Session Panel **\[2\]** 19](#session-panel-2)
-
-[Map Window **\[3\]** 20](#map-window-3)
-
-[Map Window Layer Control **\[4\]** 24](#map-window-layer-control-4)
-
-[Cross-Section Window **\[5\]** 27](#cross-section-window-5)
-
-[Cross-Section Window Layer Control **\[6\]**
-29](#cross-section-window-layer-control-6)
-
-[Status Bar **\[7\]** 32](#status-bar-7)
-
-[Importing & Exporting Data 33](#_Toc46143806)
-
-[Images 34](#images)
-
-[Shapefiles 38](#shapefiles)
-
-[ASCII Grids 39](#ascii-grids)
-
-[OBJ Files 40](#obj-files)
-
-[Working With Borehole Logs 42](#_Toc46143811)
-
-[Borehole Data Import 43](#borehole-data-import)
-
-[CSV/TXT Format 43](#csvtxt-format)
-
-[Importing CSV 44](#importing-csv)
-
-[Importing Tabular Data 52](#importing-tabular-data)
-
-[Importing AGS Format Data 57](#importing-ags-format-data)
-
-[Importing LAS Format Data 58](#importing-las-format-data)
-
-[BGS Borehole Records 62](#bgs-borehole-records)
-
-[Displaying Boreholes 66](#displaying-boreholes)
-
-[Creating Borehole Log Templates 67](#creating-borehole-log-templates)
-
-[Editing Borehole Log Templates 68](#editing-borehole-log-templates)
-
-[Editing Borehole Data 85](#editing-borehole-data)
-
-[Drawing Points, Shapes & Annotations 92](#_Toc46143823)
-
-[Creating New Layers 93](#creating-new-layers)
-
-[Creating and Editing Point Layers
-93](#creating-and-editing-point-layers)
-
-[Creating & Editing Shape Layers 97](#creating-editing-shape-layers)
-
-[Creating & Editing Annotation Layers
-105](#creating-editing-annotation-layers)
-
-[Drawing Cross-Sections 114](#drawing-cross-sections)
-
-[Creating the Cross-Section Alignment
-115](#creating-the-cross-section-alignment)
-
-[Creating Cross-Sections Without an Alignment
-115](#creating-cross-sections-without-an-alignment)
-
-[Drawing a Polyline for the Alignment
-115](#drawing-a-polyline-for-the-alignment)
-
-[Including Boreholes in the Cross-Section Alignment
-117](#including-boreholes-in-the-cross-section-alignment)
-
-[Modifying the Alignment 117](#modifying-the-alignment)
-
-[Viewing and Editing the Cross-Section
-120](#viewing-and-editing-the-cross-section)
-
-[Topographic Profile 121](#topographic-profile)
-
-[Viewing Boreholes 122](#viewing-boreholes)
-
-[Buffering Boreholes Into a Cross-Section
-124](#buffering-boreholes-into-a-cross-section)
-
-[Registering Images in Cross-Section
-125](#registering-images-in-cross-section)
-
-[Drawing Geology 127](#drawing-geology)
-
-[Developing Conceptual Site Models 135](#_Toc46143840)
-
-[Introduction 136](#introduction-1)
-
-[Constructing the Data Model 136](#constructing-the-data-model)
-
-[Creating Pollutant Linkages 138](#creating-pollutant-linkages)
-
-[Displaying a Network Diagram 140](#displaying-a-network-diagram)
-
-[Drawing CSM Objects in Map and Cross-Section
-144](#drawing-csm-objects-in-map-and-cross-section)
-
-[Shapes 144](#shapes)
-
-[Annotations 145](#annotations)
-
-[Drawing Water Levels and Defining Aquifers
-146](#drawing-water-levels-and-defining-aquifers)
-
-[Accessing Historic Maps 150](#accessing-historic-maps)
-
-[Building Geological Models 153](#_Toc46143850)
-
-[Intro 154](#intro)
-
-[Defining the Model Grid 154](#defining-the-model-grid)
-
-[Creating Model Layers 156](#creating-model-layers)
-
-[Additional Tools 177](#additional-tools)
-
-[3D Graphics 186](#_Toc46143855)
-
-[About 187](#about)
-
-[First Use 187](#first-use-1)
-
-[User Interface 187](#user-interface-1)
-
-[The control panel 188](#the-control-panel)
-
-[Layer Control 188](#layer-control)
-
-[Object Explorer 190](#object-explorer)
-
-[Clipping Controls 190](#clipping-controls)
-
-[Configurations 192](#configurations)
-
-[The Hot Bar 193](#the-hot-bar)
-
-[The Scene 193](#the-scene)
-
-[Settings 194](#settings)
-
-[Borehole Settings 194](#borehole-settings)
-
-[Saving 195](#saving)
-
-[Cross Sections 196](#cross-sections)
-
-[Models 196](#models)
-
-[Surfaces 196](#surfaces)
-
-[Videos 196](#videos)
-
-[Configurations 197](#configurations-1)
-
-# Introduction
+## Introduction
 
 This section provides an overview of Groundhog and information about how
 to install the software and activate a license.
@@ -255,31 +7,33 @@ to install the software and activate a license.
 
 *Photo by Hosea Georgeson on Unsplash*
 
-## About Groundhog
+### About Groundhog
 
 BGS Groundhog Desktop (Groundhog) is geological software created and
 maintained by a team at the British Geological Survey. It is available
 in two versions, (1) ***Community*** and (2) ***Professional***.
 
-***Community*** is free-to-use, including for commercial applications,
+#### Community 
+
+Is free-to-use, including for commercial applications,
 under the UK Open Government Licence. You can use it to import and
 explore your site geological data such as maps and boreholes. It allows
 you to create custom borehole log templates, develop map line-work and
 draw geological cross-sections.
 
-***Professional*** includes all of the features of Community and adds a
+#### Professional 
+
+Includes all of the features of Community and adds a
 range of modelling capability. Use it to create annotated, conceptual
 site models. You can also use it to develop full 3D geological framework
 models. Professional requires a digital activation key which is
 available from our commercial reseller, Land Quality Management
 [www.lqm.co.uk](http://www.lqm.co.uk)
 
-This user guide covers both versions. Please note that not all features
+?> This user guide covers both versions. Please note that not all features
 described here are available in all versions of the software. Where a
 particular feature relates only to the Groundhog Professional version it
-will be highlighted like this:
-
-*Professional*
+will be highlighted like this: "*Professional*"
 
 Groundhog is currently BETA software and not all of the available
 features of Groundhog are necessarily documented in this guide. Whilst
@@ -292,9 +46,13 @@ A basic set of tutorial videos is available at;
 
 <https://www.youtube.com/channel/UCQc4rWxP2sMPNFhHq6xOthQ/videos>
 
-## Installation
+### System Requirements
 
-**Please read all steps carefully to ensure correct installation of
+Windows 7 or above (64-bit). Mouse with Scroll wheel (laptop trackpad not recommended). Dedicated graphics card recommended for optimium 3D graphcs performance. May not function over network/virtual/remote-desktops environments. 
+
+### Installation
+
+?> **Please read all steps carefully to ensure correct installation of
 Groundhog\!**
 
 You can obtain the installer for Groundhog from the BGS website. There
@@ -318,7 +76,7 @@ temporary location.
 \<Right-click\> on the \<setup.exe\> file and choose \<Run as
 administrator\>
 
-**IMPORTANT:** Depending on your organisation’s security policies you
+!> **IMPORTANT:** Depending on your organisation’s security policies you
 may need assistance from your IT support department to carry out the
 software install.
 
@@ -328,7 +86,7 @@ You will be prompted to choose an **installation folder**, which is
 usually C:\\Program Files\\BGS Groundhog Desktop, but you can install
 Groundhog wherever you prefer.
 
-## First Use
+### First Use
 
 The first time you start Groundhog you will see a screen like this.
 
@@ -349,7 +107,7 @@ previously upgraded Groundhog to Professional and this is not
 automatically enabled in your new Groundhog version, please contact the
 Groundhog team.
 
-## Digital License Activation
+### Digital License Activation
 
 Groundhog will automatically run in Community mode right away. There is
 no need to activate this version in any way. You can get started using
@@ -357,11 +115,9 @@ it immediately and use it for as long as you like. We do humbly request
 that you consider acknowledging your use of Groundhog in your projects
 because this helps our project gain exposure, but you do not have to\!
 
-If you are upgrading to the Professional version of Groundhog you will
+?> If you are upgrading to the Professional version of Groundhog you will
 need a digital activation key. Keys can be obtained from our commercial
-reseller, Land Quality Management Ltd.
-
-[www.lqm.co.uk](http://www.lqm.co.uk)
+reseller, [Land Quality Management Ltd.](http://www.lqm.co.uk)
 
 When you purchase your digital license for Groundhog Professional you
 will be asked for your email address. This information is only used for
@@ -384,8 +140,7 @@ for the duration of you license.
 If you experience any difficulties with your activation, please contact
 the person who issued your digital key by email.
 
-#   
-Data Objects
+# Data Objects
 
 This section provides an overview of the key data object types supported
 by Groundhog, where they are held in the project structure and how to
@@ -653,7 +408,7 @@ not a good match with Groundhog.
 
 ![](./media/image37.png)
 
-### Main Toolbar **\[1\]**
+### Main Toolbar 
 
 Contains high-level buttons for key operations.
 
@@ -664,7 +419,7 @@ Contains high-level buttons for key operations.
 | ![](./media/image41.png) | Open Map Window | Allows the creation of a new map (plan-view) window. When you create a new map window you will be prompted to select the data layers you want to see in the window. The available layers will depend on the data contained within your workspace or project. Press \<Skip\> to open a blank window. |
 | ![](./media/image42.png) | Open 3D Window  | Opens the 3D graphics window.                                                                                                                                                                                                                                                                       |
 
-### Session Panel **\[2\]**
+### Session Panel 
 
 A tabbed panel containing a range of session-level objects.
 
@@ -706,7 +461,7 @@ with time. These features are currently undocumented. Please contact
 
 ![](./media/image50.png)
 
-### Map Window **\[3\]**
+### Map Window 
 
 A tabbed component capable of displaying multiple map panels. Each map
 panel can display map data layers and can be used for digitizing points
@@ -747,8 +502,11 @@ Each graphics panel works like most interactive online map applications.
 The mouse is inherently multi-mode, reducing the need to constantly
 select different tools to pan and zoom. Click and hold mouse button 1
 (typically the left button) and drag the mouse to pan the map around.
-Use the mouse wheel to zoom in and out (a good mouse wheel is very
-important for effective Groundhog operation). The mouse zoom is
+Use the mouse wheel to zoom in and out 
+
+?> A good mouse wheel is very important for effective Groundhog operation. 
+
+The mouse zoom is
 dynamically targeted to the mouse cursor position, allowing for very
 rapid and precise zoom in from small scale to large scale maps.
 
@@ -763,61 +521,70 @@ alignment whilst holding the SHIFT key.
 
 ![](./media/image53.png)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="./media/image54.png" style="width:0.29167in;height:0.28125in" /></th>
-<th>Zoom To Extent</th>
-<th>Zooms to the full extent of all layers in the map panel, or to the currently active layer, if one is selected.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><img src="./media/image55.png" style="width:0.27083in;height:0.27083in" /></td>
-<td>Zoom In</td>
-<td>Incrementally zooms the map to a larger scale with each successive click.</td>
-</tr>
-<tr class="even">
-<td><img src="./media/image56.png" style="width:0.26042in;height:0.28125in" /></td>
-<td>Zoom Out</td>
-<td>Incrementally zooms the map to a smaller scale with each successive click.</td>
-</tr>
-<tr class="odd">
-<td><img src="./media/image57.png" style="width:0.26042in;height:0.26042in" /></td>
-<td>Gazetteer</td>
-<td><p>Search for places (UK only) by place name, street+placement or county. Examples:</p>
-<p>“Nottingham”</p>
-<p>“Main Street, Keyworth”</p>
-<p>“Rutland”</p></td>
-</tr>
-<tr class="even">
-<td><img src="./media/image58.png" style="width:0.79104in;height:0.22356in" /></td>
-<td>Select Drawing Code</td>
-<td>Click to open the drawing code library panel in order to change the active drawing code. Also displays the currently active drawing code, including its colour and ornament if they are available.</td>
-</tr>
-<tr class="odd">
-<td><img src="./media/image59.png" style="width:0.27083in;height:0.27083in" /></td>
-<td>Print</td>
-<td>Send the current map view to a printer.</td>
-</tr>
-<tr class="even">
-<td><img src="./media/image60.png" style="width:0.30208in;height:0.25in" /></td>
-<td>Save Image</td>
-<td>Save the current map view to an image (JPEG or PNG).</td>
-</tr>
-<tr class="odd">
-<td><img src="./media/image61.png" style="width:0.26042in;height:0.26042in" /></td>
-<td>Save PDF</td>
-<td>Save the current map view to a PDF document.</td>
-</tr>
-<tr class="even">
-<td><img src="./media/image62.png" style="width:0.53125in;height:0.26042in" /></td>
-<td>Toggle Slider</td>
-<td><p>The layer slider allows partial view of a user-defined collection of map data layers for rapid comparison. With the slider toggled on, use the mouse to drag the slider position in the map panel. The below example shows the BGS geology map WMS active as the active slider layer on top of a topographic basemap. For information about how to make a particular layer active in the slider refer to the section on the Map Window Layer Control below.</p>
-<p><img src="./media/image63.png" style="width:3.63433in;height:1.75101in" /></p></td>
-</tr>
-</tbody>
-</table>
+##### Zoom to Extent
+
+Zooms to the full extent of all layers in the map panel, or to the currently active layer, if one is selected.
+
+![](./media/image54.png)
+
+##### Zoom In
+
+![](./media/image55.png)
+
+Incrementally zooms the map to a larger scale with each successive click.
+
+##### Zoom Out
+
+![](./media/image56.png)
+
+Incrementally zooms the map to a smaller scale with each successive click.
+
+##### Gazetteer
+
+![](./media/image57.png)
+
+Search for places (UK only) by place name, street+placement or county. Examples:
+
+“Nottingham”
+
+“Main Street, Keyworth”
+
+“Rutland”
+
+##### Select Drawing Code
+
+
+![](./media/image58.png)
+
+Click to open the drawing code library panel in order to change the active drawing code. Also displays the currently active drawing code, including its colour and ornament if they are available.
+
+##### Print
+
+![](./media/image59.png)
+
+Send the current map view to a printer.
+
+##### Save Image
+
+![](./media/image60.png)
+Save the current map view to an image (JPEG or PNG).
+
+##### Save PDF
+
+![](./media/image61.png)
+
+Save the current map view to a PDF document.
+
+
+##### Toggle Slider
+
+
+![](./media/image62.png)
+
+The layer slider allows partial view of a user-defined collection of map data layers for rapid comparison. With the slider toggled on, use the mouse to drag the slider position in the map panel. The below example shows the BGS geology map WMS active as the active slider layer on top of a topographic basemap. For information about how to make a particular layer active in the slider refer to the section on the Map Window Layer Control below.
+
+![](./media/image63.png)
+
 
 #### Right-Click Operations
 
@@ -851,7 +618,7 @@ following options.
 </tr>
 <tr class="odd">
 <td>Show Grid Info</td>
-<td>Show UK grid reference for the mouse cursor position, e.g. <img src="./media/image65.png" style="width:1.64925in;height:0.73092in" /></td>
+<td>Show UK grid reference for the mouse cursor position</td>
 </tr>
 <tr class="even">
 <td>Site Investigation</td>
@@ -860,7 +627,9 @@ following options.
 </tbody>
 </table>
 
-### Map Window Layer Control **\[4\]**
+![](./media/image65.png)
+
+### Map Window Layer Control 
 
 When you create a new map window you will be prompted to select which
 data layers you want to add to the window. You can add layers layer on
@@ -979,7 +748,7 @@ Notice the two options circled in red. These are **Copy the identify
 data to the clipboard** and **Add the lexicon code to the library
 panel**.
 
-### Cross-Section Window **\[5\]**
+### Cross-Section Window 
 
 A tabbed component capable of displaying multiple cross-section panels.
 Each cross-section panel can display profile data layers and can be used
@@ -1104,7 +873,7 @@ options.
 </tbody>
 </table>
 
-### Cross-Section Window Layer Control **\[6\]**
+### Cross-Section Window Layer Control 
 
 This panel lists the data layers which are currently added to the
 cross-section window. The panel also has its own toolbar.
@@ -1209,7 +978,7 @@ When a layer is active you may see variations on the right-click option
 available in the cross-section window and also depending on whether you
 have right-clicked on an object or whitespace.
 
-### Status Bar **\[7\]**
+### Status Bar
 
 The status bar displays certain information and controls related to the
 current session.
@@ -4187,9 +3956,9 @@ When multiple layers are in the layer control, they can be dragged
 around, just as in the map and section layer controls, to change the
 drawing order and allow certain objects to be seen through others.
 
-### 
+### Object Explorer
 
-### ![](./media/image563.png)Object Explorer
+![](./media/image563.png)
 
 The next tab is the **object explorer** which allows a particular layer
 to be interrogated. By opening the above borehole layer in the object
