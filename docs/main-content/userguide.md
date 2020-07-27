@@ -3979,7 +3979,7 @@ of objects.
 
 ### Clipping Controls
 
-![](./media/image565.png)After the object explorer, you will find the
+![](./media/clipping control intro.png)After the object explorer, you will find the
 **clipping controls** tab. The add button will give you two options:
 
 1.  Add new clipping Plane: this will add a new clipping plane to the
@@ -4095,7 +4095,7 @@ Navigation of the scene is broken into three types:
 
 ## Saving
 
-The save button ![](./media/image559.png) is a multi-functional save
+The save button ![](./media/save item intro.png) is a multi-functional save
 tool which will allow the saving of any savable layers or items that are
 currently existent within your current session. These could include 3D
 objects, videos and the configuration of your window.
