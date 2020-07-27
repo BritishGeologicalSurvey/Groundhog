@@ -1445,9 +1445,7 @@ geophysical test data, with a single test DEPTH field.
 The following image below shows how the data from the tables can be used
 in log templates, for example.
 
-![](./media/image169.PNG)
-
-### 
+![](./media/image169.PNG) 
 
 ### Importing AGS Format Data
 
