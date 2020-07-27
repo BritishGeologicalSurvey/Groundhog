@@ -3979,7 +3979,8 @@ of objects.
 
 ### Clipping Controls
 
-![](./media/image565.png)After the object explorer, you will find the
+![](./media/image565.png)
+After the object explorer, you will find the
 **clipping controls** tab. The add button will give you two options:
 
 1.  Add new clipping Plane: this will add a new clipping plane to the
