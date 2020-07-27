@@ -3980,6 +3980,7 @@ of objects.
 ### Clipping Controls
 
 ![](./media/image565.png)
+
 After the object explorer, you will find the
 **clipping controls** tab. The add button will give you two options:
 
