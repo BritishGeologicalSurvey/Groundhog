@@ -1,17 +1,14 @@
-# Cover
-
 *BGS Groundhog Desktop*
 
-User Guide v2.1.0 (BETA)
+User Guide v2.2.0 (BETA)
 
-July 2020
+January 2021
 
 ![](./media/image1.png)
 
-![](./media/image2.png)
-![](./media/image3.png)
+![](./media/image2.png)![](./media/image3.png)
 
-**© Copyright British Geological Survey (UKRI) 2020. All rights
+**© Copyright British Geological Survey (UKRI) 2021. All rights
 reserved.**
 
 This document is intended as a general guide to the operation of the BGS
@@ -28,7 +25,7 @@ Government License.
 Topographic basemap images used within this user guide use OS open data
 layers. Contains OS Data © Crown Copyright and Database Right.
 
-## Versions
+**Versions**
 
 BGS Groundhog Desktop (Groundhog) is available in two versions badged
 (1) ***Community*** and (2) ***Professional***. Community is free-to-use
@@ -37,7 +34,7 @@ for building conceptual and 3D site and geological models and is
 available under a commercial license via our UK commercial reseller,
 Land Quality Management Ltd. (LQM).
 
-## Contact Information
+**Contact Information**
 
 BGS Groundhog Desktop (Groundhog) is software created and maintained by
 the British Geological Survey. Further information about the development
@@ -49,7 +46,7 @@ For general enquiries about the Groundhog project, please email us.
 
 <groundhog@bgs.ac.uk>
 
-## Distribution
+**Distribution**
 
 Licenses for Groundhog Professional are distributed by Land Quality
 Management Ltd. (LQM). Further information can be obtained via their
@@ -60,4 +57,3 @@ website.
 <judith@lqm.co.uk>
 
 ![](./media/image3.png)![](./media/image2.png)
-
