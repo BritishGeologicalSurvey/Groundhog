@@ -4,7 +4,7 @@
 
 ![logo](_media/logo.png)
 
-# BGS Groundhog<small>2.2.0 BETA</small>
+# BGS Groundhog<small>2.3.0 BETA</small>
 
 
 [User Guide](main-content/userguide)
