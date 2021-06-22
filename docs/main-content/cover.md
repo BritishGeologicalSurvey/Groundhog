@@ -1,8 +1,8 @@
 *BGS Groundhog Desktop*
 
-User Guide v2.2.0 (BETA)
+User Guide v2.3.0 (BETA)
 
-January 2021
+June 2021
 
 ![](./media/image1.png)
 
@@ -48,9 +48,9 @@ For general enquiries about the Groundhog project, please email us.
 
 **Distribution**
 
-Licenses for Groundhog Professional are distributed by Land Quality
-Management Ltd. (LQM). Further information can be obtained via their
-website.
+Licenses for Groundhog Professional, including free trial licenses, are
+available via our commercial reseller, Land Quality Management Ltd.
+(LQM). Further information can be obtained via their website.
 
 <https://www.lqm.co.uk/csm/>
 
