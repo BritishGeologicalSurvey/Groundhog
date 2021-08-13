@@ -127,6 +127,17 @@ request that you consider acknowledging your use of Groundhog in your
 projects because this helps our project gain exposure, but you do not
 have to!
 
+### TRIALS and INSTANT TRIALS
+
+If you are interested in seeing the extended capabilities of Groundhog
+Professional you can access two types of trial license.
+
+**Instant 7-day trials** can be accessed directly from within the
+software under the Help \> Licensing menu.
+
+**30-day trials** can be accessed by getting in touch (see below), as
+you will need an activation key.
+
 If you are upgrading to the Professional version of Groundhog you will
 need a digital activation key. Keys can be obtained from our commercial
 reseller, Land Quality Management Ltd. **Free 30-day trial keys are
@@ -171,7 +182,7 @@ you up and running with a basic project within just a few minutes.
 
 *Photo by Joe Caione on Unsplash*
 
-[]{#_Toc73705409 .anchor}**Project Configuration Dialog**
+[]{#_Toc79650008 .anchor}**Project Configuration Dialog**
 
 Open the project configuration dialog using the \<Configure Project>
 button beneath the main toolbar.
@@ -253,13 +264,24 @@ CSV file(s).
 
 ![](./media/image17.png)
 
-You can use it to import the borehole locations (collars, holes) and
-also optionally the downhole geology log data. For each sub-panel, use
-the \<Choose a file (\*.CSV)> button to browse for the CSV file
-containing the data. The data file should be comma-separated with field
-headers.
+At the top there is a hyperlink to import data using the Groundhog Excel
+template.
 
 ![](./media/image18.png)
+
+This is the easiest, most reliable way to enter your data and work with
+it in Groundhog Professional. For more information on how to work with
+the Excel template, refer to the relevant section of this guide.
+
+*Professional*
+
+Alternatively, you can use the other controls in the panel to import the
+borehole locations (collars, holes) and also optionally the downhole
+geology log data from CSV file(s). For each sub-panel, use the \<Choose
+a file (\*.CSV)> button to browse for the CSV file containing the data.
+The data file should be comma-separated with field headers.
+
+![](./media/image19.png)
 
 With the CSV files selected you will see hyperlinks to click on to set
 the field mappings that Groundhog needs in order to understand the
@@ -267,9 +289,9 @@ format of the data you are loading. This is needed because the field
 names in your CSV may be different to the standard ones expected by
 Groundhog, so you need to map these by hand using the hyperlinks.
 
-![](./media/image19.png)
-
 ![](./media/image20.png)
+
+![](./media/image21.png)
 
 The above example show a mapping for the borehole id ("Location ID" in
 Groundhog) to a field called LOCA_ID in the imported CSV. Your CSV
@@ -278,15 +300,15 @@ fields can be called anything you like.
 Here is an example of all fields mapped. When ready, click \<Import> to
 pull the data into the project.
 
-![](./media/image21.png)
+![](./media/image22.png)
 
 Specify a dataset/folder name for the import.
 
-![](./media/image22.png)
+![](./media/image23.png)
 
 The boreholes will then appear in the data tree.
 
-![](./media/image23.png)
+![](./media/image24.png)
 
 ### Elevation Grid
 
@@ -295,7 +317,7 @@ the "capping" surface for the project. This is needed for terrain
 profiles when drawing geological cross-sections, for example, as well as
 when creating 3D geological models.
 
-![](./media/image24.png)
+![](./media/image25.png)
 
 There are a range of options here. You can use an existing grid object,
 if you already have one loaded in the project. Alternatively, you can
@@ -322,28 +344,28 @@ colours. For example, if you have a set of boreholes with codes not
 recognised by Groundhog, you can create your own colour scheme using
 this panel.
 
-![](./media/image25.png)
+![](./media/image26.png)
 
 Simple click \<Add a new layer code> to get started, typing in your own
 layer names and choosing colours.
 
-![](./media/image26.png)
-
 ![](./media/image27.png)
+
+![](./media/image28.png)
 
 Use the \<Edit> and \<Remove> options to change the layers.
 
 Hover over a layer and use the up/down arrows to re-order the sequence,
 if the geological order is important for your project.
 
-![](./media/image28.png)
+![](./media/image29.png)
 
 Any layers added to this list will appear in the master code library as
 project-specific codes. They can be picked up for drawing and will also
 appear in graphics using the correct colours (e.g. maps, sections,
 borehole intervals).
 
-![](./media/image29.png)
+![](./media/image30.png)
 
 #  Data Objects
 
@@ -352,7 +374,7 @@ by Groundhog, where they are held in the project structure and how to
 both create and import your own data structures into a Groundhog
 project.
 
-![](./media/image30.jpeg)
+![](./media/image31.jpeg)
 
 *Photo by João Silas on Unsplash*
 
@@ -364,7 +386,7 @@ under the \<Workspace> tab. For more details on the other components of
 the user interface please refer to the next main section of the user
 guide.
 
-![](./media/image31.png)
+![](./media/image32.png)
 
 This tree panel is a typical multi-level object structure, like a
 Windows file explorer navigation panel. Expand the various folder nodes
@@ -373,7 +395,7 @@ are available in all versions of Groundhog.
 
 The object tree is arranged into three top-level folders.
 
-![](./media/image32.png)
+![](./media/image33.png)
 
 ### Site / Project Folder
 
@@ -381,7 +403,7 @@ Contains the key site investigation data types such as GIS-style point
 and shape layers, borehole data, cross-sections, project phase and CSM
 information, annotations and linked files such as images.
 
-![](./media/image33.png)
+![](./media/image34.png)
 
 #### Location Layers Folder
 
@@ -391,27 +413,27 @@ point layer, which is why they are grouped together as Location Layers.
 
 Make new, empty layers using \<right-click> \<New Layer>.
 
-![](./media/image34.png)
+![](./media/image35.png)
 
 Enter a name.
 
-![](./media/image35.png)
+![](./media/image36.png)
 
 Click \<Yes> if you want to make a layer for boreholes, click \<No> to
 make a layer for point data.
 
-![](./media/image36.png)
+![](./media/image37.png)
 
 This is the effect of doing both a borehole layer and a point layer.
 Note the different icons.
 
-![](./media/image37.png)
+![](./media/image38.png)
 
 In the case of boreholes, a \<Right-Click> option allows for data
 import. For more details on data import see the main user guide chapter
 **Importing & Exporting Data**.
 
-![](./media/image38.PNG)
+![](./media/image39.PNG)
 
 #### Shape Layers Folder
 
@@ -421,15 +443,15 @@ together into generic shape layers.
 
 Make new, empty layers using \<right-click> \<New Layer>
 
-![](./media/image39.png)
+![](./media/image40.png)
 
 Enter a name.
 
-![](./media/image40.png)
+![](./media/image41.png)
 
 Empty layer is added to the folder.
 
-![](./media/image41.png)
+![](./media/image42.png)
 
 #### Cross-Sections Folder
 
@@ -442,17 +464,17 @@ cross-section objects directly from the tree if you just want to draw a
 cross-section without placing it in the map context via \<right-click>
 \<Tools> \<Create New Cross-Section>.
 
-![](./media/image42.png)
+![](./media/image43.png)
 
 Enter a name.
 
-![](./media/image43.png)
+![](./media/image44.png)
 
 Specify a length in metres.
 
-![](./media/image44.png)
-
 ![](./media/image45.png)
+
+![](./media/image46.png)
 
 Cross-sections created in this way are all registered starting at \[0,
 0\] grid coordinates.
@@ -466,13 +488,13 @@ Create a new layer for holding annotation objects via \<Right-Click>
 
 *Professional*
 
-![](./media/image46.png)
+![](./media/image47.png)
 
 Enter a name.
 
-![](./media/image47.png)
-
 ![](./media/image48.png)
+
+![](./media/image49.png)
 
 Annotation layers can be created and edited in Professional mode.
 However, they can be viewed in Community mode so you can deliver a
@@ -491,7 +513,7 @@ Phase>.
 
 *Professional*
 
-![](./media/image49.png)
+![](./media/image50.png)
 
 #### Associated Files Folder
 
@@ -499,7 +521,7 @@ Certain types of imported file will appear in this folder when they are
 imported. A good example is imported image files which have their own
 specific sub-folder.
 
-![](./media/image50.png)
+![](./media/image51.png)
 
 #### Log Templates Folder
 
@@ -512,11 +534,11 @@ this user guide.
 
 To make a new template use \<right-click> \<New Template>.
 
-![](./media/image51.png)
+![](./media/image52.png)
 
 Enter a name.
 
-![](./media/image52.PNG)
+![](./media/image53.PNG)
 
 If **Project Template** is selected, this template will be saved when
 you save the project and will be available to this project only.
@@ -526,14 +548,14 @@ in the future.
 
 The new template is added to the folder and is ready to be worked on.
 
-![](./media/image53.PNG)
+![](./media/image54.PNG)
 
 ### Models Folder
 
 Contains the key data types related to 2.5D and 3D models and related
 information.
 
-![](./media/image54.PNG)
+![](./media/image55.PNG)
 
 #### Layer Models Folder
 
@@ -572,7 +594,7 @@ using the 3D graphics window in Groundhog.
 This folder stores system-level objects which are typically available
 across all of your Groundhog projects.
 
-![](./media/image55.png)
+![](./media/image56.png)
 
 #### Pick Lists Folder
 
@@ -584,9 +606,9 @@ current version of Groundhog. Examples include a pick list of possible
 contaminants for conceptual site models, or dictionary lookups for
 geotechnical data in AGS format.
 
-![](./media/image56.png)
-
 ![](./media/image57.png)
+
+![](./media/image58.png)
 
 #### Web Map Services Folder
 
@@ -602,7 +624,7 @@ layers to map window.
 This section provides an overview of the graphical user interface and
 key panels and buttons within Groundhog.
 
-![](./media/image58.jpeg)
+![](./media/image59.jpeg)
 
 *Original photo by Kobu Agency on Unsplash*
 
@@ -614,26 +636,26 @@ interactive graphical tool you will benefit significantly from using a
 good-quality mouse equipped with a mouse wheel -- a laptop track-pad is
 not a good match with Groundhog.
 
-![](./media/image59.png)
+![](./media/image60.png)
 
 ### Main Toolbar **\[1\]**
 
 Contains high-level buttons for key operations.
 
   --------------------------------------------------------------------------------------------
-  ![](./media/image60.png)   Main Menu               This is the main menu button providing
+  ![](./media/image61.png)   Main Menu               This is the main menu button providing
                                                      access to a series of high-level
                                                      functions such as import/export.
   -------------------------- ----------------------- -----------------------------------------
-  ![](./media/image61.png)   Open Project            Opens a file chooser for opening
+  ![](./media/image62.png)   Open Project            Opens a file chooser for opening
                                                      Groundhog projects in the \*.gop file
                                                      format.
 
-  ![](./media/image62.png)   Save Project            Opens a file chooser for saving the
+  ![](./media/image63.png)   Save Project            Opens a file chooser for saving the
                                                      current session to a Groundhog \*.gop
                                                      file format.
 
-  ![](./media/image63.png)   Open Map Window         Allows the creation of a new map
+  ![](./media/image64.png)   Open Map Window         Allows the creation of a new map
                                                      (plan-view) window. When you create a new
                                                      map window you will be prompted to select
                                                      the data layers you want to see in the
@@ -642,14 +664,14 @@ Contains high-level buttons for key operations.
                                                      workspace or project. Press \<Skip> to
                                                      open a blank window.
 
-  ![](./media/image64.png)   Open 3D Window          Opens the 3D graphics window.
+  ![](./media/image65.png)   Open 3D Window          Opens the 3D graphics window.
   --------------------------------------------------------------------------------------------
 
 ### Session Panel **\[2\]**
 
 A tabbed panel containing a range of session-level objects.
 
-![](./media/image65.PNG)
+![](./media/image66.PNG)
 
 #### Workspace
 
@@ -659,7 +681,7 @@ Tree section of this user guide.
 
 #### Library
 
-![](./media/image66.png)A panel containing a configurable library of
+![](./media/image67.png)A panel containing a configurable library of
 available drawing codes (geology codes and other special codes).
 Single-click on an entry to select it as the active drawing code -- this
 sets the code as active in all windows. The below example shows
@@ -668,18 +690,18 @@ sets the code as active in all windows. The below example shows
 sorted alphabetically. Type into the search box to find codes. Click
 \<All> to reset the list back to all values after searching.
 
-![](./media/image67.png)
+![](./media/image68.png)
 
   --------------------------------------------------------------------------------------
-  ![](./media/image68.png)   Add Code            Add a drawing code, and optionally a
+  ![](./media/image69.png)   Add Code            Add a drawing code, and optionally a
                                                  matching colour, to the library.
   -------------------------- ------------------- ---------------------------------------
-  ![](./media/image69.png)   Add Colour          Add a colour value to the library.
+  ![](./media/image70.png)   Add Colour          Add a colour value to the library.
 
-  ![](./media/image70.png)   Save Codes          Saves all current drawing codes to the
+  ![](./media/image71.png)   Save Codes          Saves all current drawing codes to the
                                                  global workspace.
 
-  ![](./media/image71.png)   Save Colours        Saves all current colour values to the
+  ![](./media/image72.png)   Save Colours        Saves all current colour values to the
                                                  global workspace.
   --------------------------------------------------------------------------------------
 
@@ -692,7 +714,7 @@ time-stamps in your borehole data which can be displayed and animated
 with time. These features are currently undocumented. Please contact
 <groundhog@bgs.ac.uk> for information.
 
-![](./media/image72.png)
+![](./media/image73.png)
 
 ### Map Window **\[3\]**
 
@@ -706,7 +728,7 @@ layers you want to see in the map. The icons for each layer indicate the
 layer's data type. The available layers will depend on what data you
 have in your workspace and project.
 
-![](./media/image73.png)
+![](./media/image74.png)
 
 The panel on the left shows data layers in the session and the panel on
 the right typically displays any web map services that are available.
@@ -747,32 +769,32 @@ previewed or queried by holding down the SHIFT key whilst hovering over
 the object. Here is an example of hovering over a cross-section
 alignment whilst holding the SHIFT key.
 
-![](./media/image74.png)
+![](./media/image75.png)
 
 #### Toolbar
 
-![](./media/image75.PNG)
+![](./media/image76.PNG)
 
 +---------+----------------+------------------------------------------+
 | ![]     | Zoom To Extent | Zooms to the full extent of all layers   |
 | (./medi |                | in the map panel, or to the currently    |
 | a/image |                | active layer, if one is selected.        |
-| 76.png) |                |                                          |
+| 77.png) |                |                                          |
 +=========+================+==========================================+
 | ![]     | Zoom In        | Incrementally zooms the map to a larger  |
 | (./medi |                | scale with each successive click.        |
 | a/image |                |                                          |
-| 77.png) |                |                                          |
+| 78.png) |                |                                          |
 +---------+----------------+------------------------------------------+
 | ![]     | Zoom Out       | Incrementally zooms the map to a smaller |
 | (./medi |                | scale with each successive click.        |
 | a/image |                |                                          |
-| 78.png) |                |                                          |
+| 79.png) |                |                                          |
 +---------+----------------+------------------------------------------+
 | ![]     | Gazetteer      | Search for places (UK only) by place     |
 | (./medi |                | name, street+placement or county.        |
 | a/image |                | Examples:                                |
-| 79.png) |                |                                          |
+| 80.png) |                |                                          |
 |         |                | "Nottingham"                             |
 |         |                |                                          |
 |         |                | "Main Street, Keyworth"                  |
@@ -782,34 +804,34 @@ alignment whilst holding the SHIFT key.
 | ![]     | Select Drawing | Click to open the drawing code library   |
 | (./medi | Code           | panel in order to change the active      |
 | a/image |                | drawing code. Also displays the          |
-| 80.png) |                | currently active drawing code, including |
+| 81.png) |                | currently active drawing code, including |
 |         |                | its colour and ornament if they are      |
 |         |                | available.                               |
 +---------+----------------+------------------------------------------+
 | ![]     | Print          | Send the current map view to a printer.  |
 | (./medi |                |                                          |
 | a/image |                |                                          |
-| 81.png) |                |                                          |
+| 82.png) |                |                                          |
 +---------+----------------+------------------------------------------+
 | ![]     | Save Image     | Save the current map view to an image    |
 | (./medi |                | (JPEG or PNG).                           |
 | a/image |                |                                          |
-| 82.png) |                |                                          |
+| 83.png) |                |                                          |
 +---------+----------------+------------------------------------------+
 | ![]     | Save PDF       | Save the current map view to a PDF       |
 | (./medi |                | document.                                |
 | a/image |                |                                          |
-| 83.png) |                |                                          |
+| 84.png) |                |                                          |
 +---------+----------------+------------------------------------------+
 | ![]     | Save Vector    | Save the current map view as a Vector    |
 | (./medi | Graphics       | Graphics (SVG) object                    |
 | a/image |                |                                          |
-| 84.gif) |                |                                          |
+| 85.gif) |                |                                          |
 +---------+----------------+------------------------------------------+
 | ![]     | Toggle Slider  | The layer slider allows partial view of  |
 | (./medi |                | a user-defined collection of map data    |
 | a/image |                | layers for rapid comparison. With the    |
-| 85.png) |                | slider toggled on, use the mouse to drag |
+| 86.png) |                | slider toggled on, use the mouse to drag |
 |         |                | the slider position in the map panel.    |
 |         |                | The below example shows the BGS geology  |
 |         |                | map WMS active as the active slider      |
@@ -819,7 +841,7 @@ alignment whilst holding the SHIFT key.
 |         |                | refer to the section on the Map Window   |
 |         |                | Layer Control below.                     |
 |         |                |                                          |
-|         |                | ![](./media/image86.png)                 |
+|         |                | ![](./media/image87.png)                 |
 +---------+----------------+------------------------------------------+
 
 #### Right-Click Operations
@@ -831,7 +853,7 @@ object, or whether you are in a "whitespace" area (a non-specific
 portion of the panel). In general, a "whitespace" click will present the
 following options.
 
-![](./media/image87.png)
+![](./media/image88.png)
 
 +---------------+------------------------------------------------------+
 | Centre The    | Enter a \[X, Y\] coordinate to centre the map at a   |
@@ -856,7 +878,7 @@ following options.
 |               | availability.**                                      |
 +---------------+------------------------------------------------------+
 | Show Grid     | Show UK grid reference for the mouse cursor          |
-| Info          | position, e.g. ![](./media/image88.png)              |
+| Info          | position, e.g. ![](./media/image89.png)              |
 +---------------+------------------------------------------------------+
 | Site          | Currently contains one option to hyperlink out to    |
 | Investigation | the historic map(s) available from the NLS for the   |
@@ -874,30 +896,30 @@ The panel also has its own toolbar.
 
 #### Toolbar
 
-![](./media/image89.png)
+![](./media/image90.png)
 
   ---------------------------------------------------------------------------------------------
-  ![](./media/image90.png)   Add Layers             Opens a list of available layers that can
+  ![](./media/image91.png)   Add Layers             Opens a list of available layers that can
                                                     be added to the map. Note that the list
                                                     does not present layers which are already
                                                     in the map.
   -------------------------- ---------------------- -------------------------------------------
-  ![](./media/image91.png)   Undo                   Undo on the last operation. **IMPORTANT:**
+  ![](./media/image92.png)   Undo                   Undo on the last operation. **IMPORTANT:**
                                                     please note that the undo only becomes
                                                     active when a data layer is made active --
                                                     i.e., the undo is layer-specific.
 
-  ![](./media/image92.png)   Redo                   Redo on the last operation. **IMPORTANT:**
+  ![](./media/image93.png)   Redo                   Redo on the last operation. **IMPORTANT:**
                                                     please note that the redo only becomes
                                                     active when a data layer is made active --
                                                     i.e., the redo is layer-specific.
 
-  ![](./media/image93.png)   Remove All Layers      Clears the map of all data layers.
+  ![](./media/image94.png)   Remove All Layers      Clears the map of all data layers.
 
-  ![](./media/image94.png)   Window Settings        Access high-level settings for the map
+  ![](./media/image95.png)   Window Settings        Access high-level settings for the map
                                                     window.
 
-  ![](./media/image95.png)   Background Colour      Change the background colour of the map
+  ![](./media/image96.png)   Background Colour      Change the background colour of the map
                                                     panel. This can be useful for improving
                                                     clarity of certain types of data.
   ---------------------------------------------------------------------------------------------
@@ -907,20 +929,20 @@ The panel also has its own toolbar.
 The layers panel lists all currently loaded layers within the map
 window. Different map windows can have different layers loaded.
 
-![](./media/image96.png)
+![](./media/image97.png)
 
 Checking the main tick-box on and off controls the visibility of each
 layer. In the example below, ***Topographic Basemap*** is not visible in
 the map panel, and ***Graticule*** is.
 
-![](./media/image97.png)
+![](./media/image98.png)
 
 The slider controls under the name of each layer control the
 transparency of the layers. Slide the bar all the way to the left to
 make the layer completely transparent. Slide the bar all the way to the
 right to make the layer completely opaque.
 
-![](./media/image98.png)
+![](./media/image99.png)
 
 Single-click on a layer to make it the active layer. Depending on the
 layer type this may activate drawing/editing tools, query tools, or it
@@ -929,7 +951,7 @@ layer can be active at a time. Single-click on the active layer to
 de-activate it. The example below shows the Cross-Sections layer as
 active.
 
-![](./media/image99.png)
+![](./media/image100.png)
 
 The order of the layers in the panel dictates the drawing order in the
 map panel. The layer at the top of the list will be drawn as the top
@@ -940,31 +962,31 @@ To change the drawing order of a layer, single-click and hold on the
 layer, and drag it to re-position it in the list. In the example below,
 the Cross-Sections layer is being dragged upwards.
 
-![](./media/image100.png)
+![](./media/image101.png)
 
 Each layer has four buttons on the right-hand side of its row.
 
-![](./media/image101.png)
+![](./media/image102.png)
 
   ----------------------------------------------------------------------------------------------------------------------
-  ![](./media/image102.png)                            Settings        Access layer-specific settings.
+  ![](./media/image103.png)                            Settings        Access layer-specific settings.
   ---------------------------------------------------- --------------- -------------------------------------------------
-  ![](./media/image103.png)![](./media/image104.png)   Toggle Slider   Toggles the layer in and out of the active slider
+  ![](./media/image104.png)![](./media/image105.png)   Toggle Slider   Toggles the layer in and out of the active slider
                                                        Layer           layer (see above for information about the slider
                                                                        controls). When the toggle button is orange it
                                                                        means the layer is active in the slider.
 
-  ![](./media/image105.png)                            Filter          At the moment this button is disabled for all
+  ![](./media/image106.png)                            Filter          At the moment this button is disabled for all
                                                                        layers pending future filtering capability.
 
-  ![](./media/image106.png)                            Remove          Removes the layer from the current window (does
+  ![](./media/image107.png)                            Remove          Removes the layer from the current window (does
                                                                        ***not*** delete the layer from the project!)
   ----------------------------------------------------------------------------------------------------------------------
 
 There are a number of operations available by right-clicking in any
 blank or "whitespace" portion of the layer control.
 
-![](./media/image107.png)
+![](./media/image108.png)
 
 **Add Layers** is the same as the Add Layers button at the top of the
 layer control panel. The other options allow for the creation of new
@@ -982,13 +1004,13 @@ graphics panel when the layer becomes active. The example below shows
 the palette which has appeared in the top-left of the map panel by
 making a shape layer active in the layer control.
 
-![](./media/image108.png)
+![](./media/image109.png)
 
 You can move the palette around in the map panel by dragging the green
 bar along the top of the box. Note that the palette becomes less
 transparent when the mouse cursor is over it.
 
-![](./media/image109.png)
+![](./media/image110.png)
 
 For more detailed information on the various tools available in the
 palette, depending on the layer type, please refer to the section
@@ -1005,7 +1027,7 @@ is the BGS WMS layers where the identify is active everywhere on the
 geology map. If the identify query yields results they will be displayed
 in the lower half of the map window layer control.
 
-![](./media/image110.PNG)
+![](./media/image111.PNG)
 
 Notice the two options circled in red. These are **Copy the identify
 data to the clipboard** and **Add the lexicon code to the library
@@ -1045,28 +1067,28 @@ rapid and precise zoom in from small scale to large scale views.
 
 #### Toolbar
 
-![](./media/image111.PNG)
+![](./media/image112.PNG)
 
 +---------+----------------+------------------------------------------+
 | ![](    | Vertical       | Sets the vertical exaggeration for the   |
 | ./media | Exaggeration   | panel. Contains a list of pre-set values |
 | /image1 |                | and can also be typed into for custom    |
-| 12.png) |                | values.                                  |
+| 13.png) |                | values.                                  |
 +=========+================+==========================================+
 | ![](    | Zoom To Extent | Zooms to the full extent of all the      |
 | ./media |                | cross-section.                           |
 | /image1 |                |                                          |
-| 13.png) |                |                                          |
+| 14.png) |                |                                          |
 +---------+----------------+------------------------------------------+
 | ![](    | Marquee Zoom   | Draw a box to zoom to that area of the   |
 | ./media |                | panel.                                   |
 | /image1 |                |                                          |
-| 14.png) |                |                                          |
+| 15.png) |                |                                          |
 +---------+----------------+------------------------------------------+
 | ![](    | Incrementally  | Incrementally zooms the cross-section to |
 | ./media | zooms the      | a smaller scale with each successive     |
 | /image1 | panel to a     | click.                                   |
-| 15.png) | smaller scale  |                                          |
+| 16.png) | smaller scale  |                                          |
 |         | with each      |                                          |
 |         | successive     |                                          |
 |         | click.         |                                          |
@@ -1074,39 +1096,39 @@ rapid and precise zoom in from small scale to large scale views.
 | ![](    | Refresh        | Refreshes the graphics panel.            |
 | ./media |                |                                          |
 | /image1 |                |                                          |
-| 16.png) |                |                                          |
+| 17.png) |                |                                          |
 +---------+----------------+------------------------------------------+
 | ![](    | Select Drawing | Click to open the drawing code library   |
 | ./media | Code           | panel in order to change the active      |
 | /image1 |                | drawing code. Also displays the          |
-| 17.png) |                | currently active drawing code, including |
+| 18.png) |                | currently active drawing code, including |
 |         |                | its colour and ornament if they are      |
 |         |                | available.                               |
 +---------+----------------+------------------------------------------+
 | ![]     | Print          | Send the current cross-section view to a |
 | (./medi |                | printer.                                 |
 | a/image |                |                                          |
-| 81.png) |                |                                          |
+| 82.png) |                |                                          |
 +---------+----------------+------------------------------------------+
 | ![]     | Save Image     | Save the current cross-section view to   |
 | (./medi |                | an image (JPEG or PNG).                  |
 | a/image |                |                                          |
-| 82.png) |                |                                          |
+| 83.png) |                |                                          |
 +---------+----------------+------------------------------------------+
 | ![]     | Save PDF       | Save the current cross-section view to a |
 | (./medi |                | PDF document.                            |
 | a/image |                |                                          |
-| 83.png) |                |                                          |
+| 84.png) |                |                                          |
 +---------+----------------+------------------------------------------+
 | ![](    | Save Vector    | Save the current cross-section view as a |
 | ./media | Graphics       | Vector Graphics (SVG) object             |
 | /image1 |                |                                          |
-| 18.gif) |                |                                          |
+| 19.gif) |                |                                          |
 +---------+----------------+------------------------------------------+
 | ![]     | Toggle Slider  | The layer slider allows partial view of  |
 | (./medi |                | a user-defined collection of             |
 | a/image |                | cross-section data layers for rapid      |
-| 85.png) |                | comparison. With the slider toggled on,  |
+| 86.png) |                | comparison. With the slider toggled on,  |
 |         |                | use the mouse to drag the slider         |
 |         |                | position in the graphics panel. The      |
 |         |                | below example shows the Geology layer as |
@@ -1117,7 +1139,7 @@ rapid and precise zoom in from small scale to large scale views.
 |         |                | section on the Cross-Section Window      |
 |         |                | Layer Control below.                     |
 |         |                |                                          |
-|         |                | ![](./media/image119.png)                |
+|         |                | ![](./media/image120.png)                |
 +---------+----------------+------------------------------------------+
 
 #### Right-Click Operations
@@ -1129,7 +1151,7 @@ shape object, or whether you are in a "whitespace" area (a non-specific
 portion of the panel). In general, a "whitespace" click will present the
 following options.
 
-![](./media/image120.png)
+![](./media/image121.png)
 
 +--------------------+-------------------------------------------------+
 | Create Line        | Allows creation of a fixed-elevation geology    |
@@ -1152,26 +1174,26 @@ cross-section window. The panel also has its own toolbar.
 
 #### Toolbar
 
-![](./media/image121.png)
+![](./media/image122.png)
 
   --------------------------------------------------------------------------------------------
-  ![](./media/image90.png)   Add Layers           Opens a list of available layers that can be
+  ![](./media/image91.png)   Add Layers           Opens a list of available layers that can be
                                                   added to the window. Note that the list does
                                                   not present layers which are already in the
                                                   list.
   -------------------------- -------------------- --------------------------------------------
-  ![](./media/image91.png)   Undo                 Undo on the last operation. **IMPORTANT:**
+  ![](./media/image92.png)   Undo                 Undo on the last operation. **IMPORTANT:**
                                                   please note that the undo is global across
                                                   all layers.
 
-  ![](./media/image92.png)   Redo                 Redo on the last operation. **IMPORTANT:**
+  ![](./media/image93.png)   Redo                 Redo on the last operation. **IMPORTANT:**
                                                   please note that the redo is global across
                                                   all layers.
 
-  ![](./media/image94.png)   Window Settings      Access high-level settings for the
+  ![](./media/image95.png)   Window Settings      Access high-level settings for the
                                                   cross-section window.
 
-  ![](./media/image95.png)   Background Colour    Change the background colour of the graphics
+  ![](./media/image96.png)   Background Colour    Change the background colour of the graphics
                                                   panel. This can be useful for improving
                                                   clarity of certain types of data.
   --------------------------------------------------------------------------------------------
@@ -1182,20 +1204,20 @@ The layers panel lists all currently loaded layers within the
 cross-section window. Different windows can have different layers
 loaded.
 
-![](./media/image122.png)
+![](./media/image123.png)
 
 Checking the main tick-box on and off controls the visibility of each
 layer. In the example below, ***Terrain Profile*** is not visible in the
 section panel, and ***Graticule*** is.
 
-![](./media/image123.png)
+![](./media/image124.png)
 
 The slider controls under the name of each layer control the
 transparency of the layers. Slide the bar all the way to the left to
 make the layer completely transparent. Slide the bar all the way to the
 right to make the layer completely opaque.
 
-![](./media/image124.png)
+![](./media/image125.png)
 
 Single-click on a layer to make it the active layer. Depending on the
 layer type this may activate drawing/editing tools, query tools, or it
@@ -1204,7 +1226,7 @@ layer can be active at a time. Single-click on the active layer to
 de-activate it. The example below shows the ***Geology*** layer as
 active.
 
-![](./media/image125.png)
+![](./media/image126.png)
 
 The order of the layers in the panel dictates the drawing order in the
 cross-section panel. The layer at the top of the list will be drawn as
@@ -1215,31 +1237,31 @@ To change the drawing order of a layer, single-click and hold on the
 layer, and drag it to re-position it in the list. In the example below,
 the Cross-Sections layer is being dragged upwards.
 
-![](./media/image126.png)
+![](./media/image127.png)
 
 Each layer has four buttons on the right-hand side of its row.
 
-![](./media/image101.png)
+![](./media/image102.png)
 
   ----------------------------------------------------------------------------------------------------------------------
-  ![](./media/image102.png)                            Settings        Access layer-specific settings.
+  ![](./media/image103.png)                            Settings        Access layer-specific settings.
   ---------------------------------------------------- --------------- -------------------------------------------------
-  ![](./media/image103.png)![](./media/image104.png)   Toggle Slider   Toggles the layer in and out of the active slider
+  ![](./media/image104.png)![](./media/image105.png)   Toggle Slider   Toggles the layer in and out of the active slider
                                                        Layer           layer (see above for information about the slider
                                                                        controls). When the toggle button is orange it
                                                                        means the layer is active in the slider.
 
-  ![](./media/image105.png)                            Filter          At the moment this button is disabled for all
+  ![](./media/image106.png)                            Filter          At the moment this button is disabled for all
                                                                        layers pending future filtering capability.
 
-  ![](./media/image106.png)                            Remove          Removes the layer from the current window (does
+  ![](./media/image107.png)                            Remove          Removes the layer from the current window (does
                                                                        ***not*** delete the layer from the project!)
   ----------------------------------------------------------------------------------------------------------------------
 
 There are a number of operations available by right-clicking in any
 blank or "whitespace" portion of the layer control.
 
-![](./media/image127.png)
+![](./media/image128.png)
 
 The **Add Layer** option presents the same dialogue as choosing this
 option from the top of this panel. The other options allow for the
@@ -1257,13 +1279,13 @@ palette in the graphics panel when the layer becomes active. The example
 below shows the palette which has appeared in the top-left of the map
 panel by making the Geology layer active in the layer control.
 
-![](./media/image128.png)
+![](./media/image129.png)
 
 You can move the palette around in the panel by dragging the green bar
 along the top of the box. Note that the palette becomes less transparent
 when the mouse cursor is over it.
 
-![](./media/image129.png)
+![](./media/image130.png)
 
 For more detailed information on the various tools available in the
 palette, depending on the layer type, please refer to the **Drawing
@@ -1284,21 +1306,21 @@ current session.
 User this to set the default (global) borehole log template to use for
 the session.
 
-![](./media/image130.png)
+![](./media/image131.png)
 
 #### Progress Bar
 
 This displays the progress of certain processing operations, such as
 project loading and model building operations.
 
-![](./media/image131.png)
+![](./media/image132.png)
 
 # Importing & Exporting Data
 
 This section provides details of the various import and export
 capabilities of Groundhog.
 
-![](./media/image132.jpeg)
+![](./media/image133.jpeg)
 
 *Photo by Mika Baumeister on Unsplash*
 
@@ -1309,20 +1331,20 @@ formats. There are several ways to import them.
 
 \<Main Menu> \<Import> \<Image>.
 
-![](./media/image133.png)
+![](./media/image134.png)
 
 \<Right-Click> on Images sub-folder.
 
-![](./media/image134.png)
+![](./media/image135.png)
 
 Drag image file from folder or desktop.
 
-![](./media/image135.png)
+![](./media/image136.png)
 
 Drag image from web browser (browser dependent, test using Google
 Chrome).
 
-![](./media/image136.png)
+![](./media/image137.png)
 
 If you have difficulty dragging an image from the web browser,
 right-click on the image and open it in a new browser tab and try again.
@@ -1330,14 +1352,14 @@ right-click on the image and open it in a new browser tab and try again.
 When images are loaded they appear in the object tree under \<Site /
 Project> \<Associated Files> \<Images>.
 
-![](./media/image137.png)
+![](./media/image138.png)
 
 Double-click the entry in the tree, or use \<Right-Click> \<View Image>
 to view the image.
 
-![](./media/image138.png)
-
 ![](./media/image139.png)
+
+![](./media/image140.png)
 
 If the image is geo-registered and the world file is present, Groundhog
 will load the image together with its geo-registration information. When
@@ -1349,11 +1371,11 @@ a map window as a layer. By default it will fill the available panel.
 Make the image layer editable and use the blue drag handles to register
 the image to the correct location.
 
-![](./media/image140.png)
-
 ![](./media/image141.png)
 
 ![](./media/image142.png)
+
+![](./media/image143.png)
 
 When the project is saved, Groundhog will generate a world file for the
 registration information.
@@ -1368,7 +1390,7 @@ files should load. Complex multi-polygon files may be less reliable.
 
 Import the file using \<Main Menu> \<Import> \<Shapefile (\*.shp)>.
 
-![](./media/image143.png)
+![](./media/image144.png)
 
 Alternatively, drag the \*.shp file into Groundhog from a folder or the
 desktop.
@@ -1377,21 +1399,21 @@ The data is imported as a new folder under the Location Layers (points)
 of Shape Layers (polyline), respectively. These folders can be added to
 any map window as a layer for display.
 
-![](./media/image144.png)
+![](./media/image145.png)
 
 A right-click option provides access to a simple view (non-editable) of
 the attribute table.
 
-![](./media/image145.png)
-
 ![](./media/image146.png)
+
+![](./media/image147.png)
 
 You can export Point and Shape type layers to shapefile format using
 \<Right-Click> \<Import / Export> \<Export> \<Shapefile (\*.SHP)>
 
-![](./media/image147.png)
-
 ![](./media/image148.png)
+
+![](./media/image149.png)
 
 ## ASCII Grids
 
@@ -1404,7 +1426,7 @@ grids in ESRI's ASCII format.
 The grid data can be imported manually via \<Main Menu> \<Import> \<ESRI
 ASCII Grid (\*.asc)>
 
-![](./media/image149.png)
+![](./media/image150.png)
 
 **Alternatively, and especially for a series of files, paste them into
 either the WORKSPACE or the PROJECT directory and restart Groundhog.
@@ -1417,14 +1439,14 @@ queried more efficiently without loading the whole grid to memory.
 Loaded grids appear in the object tree under \<Models> \<Reference
 Grids> and each label displays the extent of the grid object.
 
-![](./media/image150.png)
+![](./media/image151.png)
 
 At present there is only a simple way to display the grid in the map,
 and that is as a simple extent rectangle. To do so, highlight the
 desired grid object in the tree and a blue rectangle will appear in the
 map window showing the extent of that grid.
 
-![](./media/image151.png)
+![](./media/image152.png)
 
 You can set a grid to be the default topographic surface layer within
 the project. This means the grid will be used as the basis of terrain
@@ -1432,33 +1454,33 @@ profile (topography) generation in cross-sections by default.
 
 \<Right-Click> \<Set As 'Surface Layer'>
 
-![](./media/image152.png)
+![](./media/image153.png)
 
 The currently set 'surface layer' grid will be displayed as bold in the
 object tree list.
 
-![](./media/image153.png)
+![](./media/image154.png)
 
 ## OBJ Files
 
 3D objects can be imported from the industry-standard OBJ data format.
 
-![](./media/image154.png)
+![](./media/image155.png)
 
 Loaded objects will appear in the data tree.
 
-![](./media/image155.png)
+![](./media/image156.png)
 
 OBJ objects can be added to the 3D view.
 
 # Working With Borehole Logs
 
-This section provides details on how to import and display your borehole
-data, make edits to the data and design your own custom log templates.
-It includes discussion of how to handle geotechnical and geophysical
-borehole data in AGS and LAS formats.
+This section provides details on how to enter, import and display your
+borehole data, make edits to the data and design your own custom log
+templates. It includes discussion of how to handle geotechnical and
+geophysical borehole data in AGS and LAS formats.
 
-![](./media/image156.jpeg)
+![](./media/image157.jpeg)
 
 *Photo by Sven Mieke on Unsplash*
 
@@ -1468,7 +1490,7 @@ Groundhog supports a range of borehole data models and import options.
 When borehole data is loaded it will appear in the object tree under
 ***Site / Project \> Location Layers***.
 
-![](./media/image157.PNG)
+![](./media/image158.PNG)
 
 Borehole datasets are arranged into folders. Each data import will
 create a separate folder. Within each folder there are three types of
@@ -1485,6 +1507,241 @@ project level. The **Data Tables** sub-folder contains associated
 tabular data (see later section on tabular data). Each **Borehole**
 object acts as a sub-folder and contains the geology/interval log and
 any additional metadata attributes for each individual location.
+
+### MS Excel Format
+
+The easiest, most reliable way to import and edit borehole data is to
+use the Excel template. Support for the template is available in
+Groundhog Professional.
+
+*Professional*
+
+The Excel template is designed specifically for use with Groundhog and
+provides a multi-sheet, formatted spreadsheet where you can enter your
+borehole data. The spreadsheet is also mapped to the AGS data format,
+enabling data imported from the Excel template to be easily exported as
+a valid AGS file. The following data entry sheets are available in the
+template.
+
+-   Project (PROJ),
+
+-   Locations (LOCA),
+
+-   Geology (GEOL),
+
+-   Samples (SAMP),
+
+-   Backfill (BKFL),
+
+-   Installation (PIPE),
+
+-   Water Strike (WSTD + WSTG),
+
+-   Penetration Test (ISPT).
+
+The template also contains pick lists for AGS legend codes and
+descriptions which match to the ornaments used by Groundhog as well as
+AGS-standard location and sample types.
+
+#### Installing the Excel Template
+
+The template can be immediately accessed from within Groundhog. This
+should open the template in Excel directly on most computers (depending
+on your local configuration and the availability of Excel).
+
+![](./media/image159.png)
+
+If you want to have immediate access to the data entry template from
+within Excel you will need to install the template manually. On most
+computers this is simply a case of pasting a copy of the template into
+Documents\\Custom Office Templates.
+
+![](./media/image160.png)
+
+You can find the template file (Groundhog Data Entry Template.xltx) in
+the Groundhog installation directory under Factory
+Settings\\CONFIGURATION.
+
+![](./media/image161.png)
+
+With a copy of the XLTX pasted across, start Excel. Click on the
+PERSONAL link to see your personal templates.
+
+![](./media/image162.png)
+
+You should then see an entry for the Groundhog data entry template.
+Click to load the template.
+
+![](./media/image163.png)
+
+#### Entering Data Using Excel
+
+The data entry template will open as a spreadsheet in Excel. The first
+sheet gives basic usage instructions. The spreadsheet has a number of
+worksheets for data entry. You do not need to complete them all. How
+much of the template you need to fill out will depend on your data.
+
+The two key worksheets are ***Locations*** and ***Geology***. If you are
+entering basic geology logs then these are the only two sheets you will
+need. The following examples show the use of these two sheets, but the
+general principles apply to all of the other sheets.
+
+![](./media/image164.png)
+
+Field names highlighted in yellow are the required ones. Fields
+highlighted in green are desirable.
+
+![](./media/image165.png)
+
+**IMPORTANT: Location ID** is used across all worksheets except Project.
+You should always enter your location data into the Locations worksheet
+first, and make sure to set a (unique) value for Location ID for each
+borehole, because the Location IDs are the primary key across the other
+tables and are used to populate a lookup list for all the other Location
+ID fields. Other fields are also controlled by lists, for example the
+Location Type field. You can select from the lists, or enter your own
+value as free-text. If you enter free-text you may see a warning
+message, but the value can still be used.
+
+![](./media/image166.png)
+
+**Locations**
+
+Here is an example of some Location entry data. Note that not all fields
+have been populated in this example, as this will depend entirely on how
+much detail you have available and want to enter. In the Locations
+worksheet, each borehole (or trial pit) is entered on a separate row (2
+in the example below).
+
+![](./media/image167.png)
+
+**Trial Pits**
+
+Trial pits may record the plant used for excavation and the dimensions
+of the hole. The Locations worksheet has fields for this data which you
+can enter if desired.
+
+![](./media/image168.png)
+
+Geology
+
+In the geology worksheet, as with most of the other worksheets, each row
+of data entered relates to one interval of data. Each individual
+borehole or location in the Locations worksheet may therefore have zero,
+one or more rows of data in the other worksheets, such as geology.
+
+**IMPORTANT:** make sure to use the correct Location ID for each row of
+data, or Groundhog will not be able to match the data up. To help with
+this, the template presents the list of IDs from the Locations sheet as
+a pick list. You may find that you need to scroll this list up by a
+small amount to see the values if you only have a few locations entered.
+
+![](./media/image169.png)
+
+Here is an example of some Geology data entered.
+
+![](./media/image170.png)
+
+Here we have entered two intervals of geology for BH1. Note the
+repetition of the Location ID ("BH1"). Also note, Top Depth always
+starts at 0 (zero). The Top Depth of a row usually is the same as the
+Base Depth of the previous row (but not always if data is missing).
+
+**Descriptions and Legend Codes**
+
+The data entry template has a sheet called Validation Lists. This
+contains useful AGS-like values for stratum descriptions and also
+3-digit AGS "legend" codes.
+
+![](./media/image171.png)
+
+If you are working to the AGS standard you should try to use these where
+possible in the General Description and Legend Code fields where
+possible. But, if you are not, then you can ignore these lists and just
+type free-text into the General Description field (and ignore the Legend
+Code field entirely). However, even if you are not intending to work to
+the AGS standard, the Legend Code values can be very useful as they
+enable Groundhog to match your entries to ornaments in the graphical log
+reports.
+
+**Stratigraphy**
+
+If you are working with stratigraphic boreholes, use the Stratigraphy
+field to enter the geological interpretation for each interval
+(free-text). For example.
+
+![](./media/image172.png)
+
+#### Loading Data Using Excel
+
+Once you have a completed spreadsheet with your data in (see previous
+section) you are ready to load it into Groundhog. You can do this by
+dragging the Excel file in, or via the main Import menu.
+
+![](./media/image173.png)
+
+The data will confirm that it has loaded.
+
+![](./media/image174.png)
+
+It will then be available in the data tree as a list of borehole
+objects, plus all of the data tables loaded from the individual
+worksheets. Note that Groundhog re-formats some of these to be
+AGS-compatible by splitting out certain worksheets into multiple tables.
+
+![](./media/image175.png)
+
+#### Editing and Refreshing Data Using Excel
+
+The best way to work on your borehole data interactively is to work on
+the data in Excel and then bring any changes into your Groundhog project
+by re-importing the spreadsheet. Simply import the Excel file (as
+described in the previous section), or use this right-click option on
+the borehole dataset to bring in the same file again.
+
+![](./media/image176.png)
+
+Groundhog will detect that the same file is being loaded and will prompt
+you to decide whether to update your existing Groundhog project dataset,
+or to create a fresh dataset alongside the previous one. There are
+different versions of this prompt, depending on the context, but they
+all ask the same question.
+
+![](./media/image177.png)
+
+If you click Yes to update the existing dataset, Groundhog will
+effectively replace the entire dataset with the current contents of the
+Excel file. So, any data you have removed from the spreadsheet will also
+be removed from the Groundhog project dataset. Similarly, and new data
+you have entered into the spreadsheet will be added to the Groundhog
+project dataset.
+
+In this way you can establish a simple workflow where you make your data
+edits using Excel and periodically update your Groundhog project when
+you have made any desired changes to the data, simply by re-importing
+the same spreadsheet file.
+
+#### Displaying Borehole Logs Imported from Excel
+
+If you import borehole data from the Groundhog Excel data entry
+template, Groundhog will give you convenient access to a standard
+borehole log design template to display this data. This log template is
+designed along AGS conventions and looks very similar to the borehole
+log template that is linked to imported AGS files.
+
+To view a borehole imported from an Excel worksheet in this way, simply
+right-click on the borehole object either in the data tree or in the map
+\> View Borehole. You will then see this option.
+
+![](./media/image178.png)
+
+Clicking this extra option will display the data as a pre-designed
+layout which can be exported to PDF, for example. Groundhog will
+automatically display a template suited to the location type (borehole
+or trial pit) -- the only difference being slightly different header
+fields (e.g. plant, length and width for trial pits).
+
+![](./media/image179.png)
 
 ### CSV/TXT Format
 
@@ -1506,9 +1763,9 @@ can import as many fields as you like for each log interval, so you can
 include fields for lithology, litho-stratigraphy, descriptions, etc. The
 field names are not prescribed as they will be mapped during the import.
 
-![](./media/image158.PNG)
+![](./media/image180.PNG)
 
-![](./media/image159.PNG)
+![](./media/image181.PNG)
 
 In the following example the collar and geology data are split between
 two separate CSV files. Note that both files have a field that contains
@@ -1518,15 +1775,15 @@ not have to be called NAME, it can be called anything as it will be
 mapped on import. It can also have different names in the collar and
 geology files. The file names are also not important.
 
-![](./media/image160.PNG)
+![](./media/image182.PNG)
 
 Collar.csv
 
-![](./media/image161.PNG)
+![](./media/image183.PNG)
 
 Geology.csv
 
-![](./media/image162.PNG)
+![](./media/image184.PNG)
 
 ### Importing CSV
 
@@ -1545,12 +1802,12 @@ single file.
 
 ***Main Menu \> Import \> Borehole Data***
 
-![](./media/image163.PNG)
+![](./media/image185.PNG)
 
 The dialog contains a tab for the collar and a tab for the geology.
 Click on the ***Choose File*** button on each tab to load up the data.
 
-![](./media/image164.png)
+![](./media/image186.png)
 
 The names of the fields in the data file are listed to the left of the
 panel. Ignore the UNIT and TYPE columns.
@@ -1561,13 +1818,13 @@ From Import \>\>** for any redundant fields. The required fields for the
 import type are marked in red in the drop-down list of possible
 **ALIAS** values.
 
-![](./media/image165.PNG)
+![](./media/image187.PNG)
 
 In this example we are working with the combined data file that contains
 both the collar and geology data. Note the mappings, including the
 fields that have been excluded.
 
-![](./media/image166.PNG)
+![](./media/image188.PNG)
 
 Note that the **LEVEL** field from the data file (which is the start
 height or elevation of the borehole) has been mapped to **Z**. This
@@ -1581,9 +1838,9 @@ file as the collar data.
 The fields required for the geology import are different than for the
 collar data. Again, they are highlighted in red in the drop-down list.
 
-![](./media/image167.PNG)
+![](./media/image189.PNG)
 
-![](./media/image168.PNG)
+![](./media/image190.PNG)
 
 **IMPORTANT:** Make sure to use the correct field to map the **LOCATION
 ID** alias, as this will be used to match the records between the collar
@@ -1601,7 +1858,7 @@ collar and geology data. Again, they are highlighted in red in the
 drop-down list. Depth is the measured depth from the top of the
 borehole.
 
-![](./media/image169.png)
+![](./media/image191.png)
 
 Click ***OK***.
 
@@ -1609,14 +1866,14 @@ If you have missed out any required fields in the **ALIAS** mappings,
 you will see this message. Go back into the mappings panels and correct
 these.
 
-![](./media/image170.png)
+![](./media/image192.png)
 
 Otherwise, the import will request a dataset name. This should be a
 unique name that you wish to use to identify the dataset within
 Groundhog. On selecting OK to this the import will proceed and a new
 borehole dataset folder will be created in the data tree.
 
-![](./media/image171.PNG)
+![](./media/image193.PNG)
 
 #### Individual Import
 
@@ -1626,24 +1883,24 @@ described in the following section.
 
 First, create an empty borehole dataset folder in the tree.
 
-![](./media/image172.PNG)
+![](./media/image194.PNG)
 
 Enter a name for the folder.
 
-![](./media/image173.png)
+![](./media/image195.png)
 
 When prompted, click ***Yes*** to specify a borehole layer.
 
-![](./media/image174.PNG)
+![](./media/image196.PNG)
 
 The new, empty borehole dataset folder will be created in the data tree.
 
 Use ***Right-Click \> Import / Export \> Import \> Collar*** on the
 borehole folder and select the file containing the collar data.
 
-![](./media/image175.PNG)
+![](./media/image197.PNG)
 
-![](./media/image176.png)
+![](./media/image198.png)
 
 Use the pull-down ALIAS options to map the imported fields to the fields
 expected by Groundhog and click Apply. In the case of collar data this
@@ -1657,19 +1914,19 @@ could be;
 
 -   Z (collar height or ground level)
 
-![](./media/image177.png)
+![](./media/image199.png)
 
 The imported collar entries are added to the data tree.
 
-![](./media/image178.png)
+![](./media/image200.png)
 
 Next, import the geology data using ***Right-Click \> Import /Export \>
 Import \> Geology Intervals*** on the borehole folder and select the
 file containing the geology interval/log data.
 
-![](./media/image179.PNG)
+![](./media/image201.PNG)
 
-![](./media/image180.png)
+![](./media/image202.png)
 
 If the depth values in the log file are elevation, as opposed to
 depth-down-hole, check the special option box on the right of the file
@@ -1679,11 +1936,11 @@ a Z, or ground level, value).
 Map the fields using the drop-down options in the **ALIAS** column of
 the import screen. Required fields are highlighted in red. Click Apply.
 
-![](./media/image181.PNG)
+![](./media/image203.PNG)
 
 Inspect the data tree to see the imported geology logs.
 
-![](./media/image182.PNG)
+![](./media/image204.PNG)
 
 ### Importing Tabular Data
 
@@ -1695,7 +1952,7 @@ installation and monitoring data, etc.
 It is important to note that tabular data is held at the borehole
 dataset folder level and not against individual boreholes.
 
-![](./media/image183.PNG)
+![](./media/image205.PNG)
 
 The rows within each table are mapped to the appropriate borehole object
 using an ID field.
@@ -1703,11 +1960,11 @@ using an ID field.
 To import a table of data use ***Right-Click \> Import / Export \>
 Import \> Tabular Data***
 
-![](./media/image184.PNG)
+![](./media/image206.PNG)
 
 Use the file chooser dialog to select the CSV file containing the data.
 
-![](./media/image185.png)
+![](./media/image207.png)
 
 Next, use the field mapping dialog to specify the meaning of the key
 fields in the import file and to choose whether to exclude any. When
@@ -1721,40 +1978,40 @@ options against each field in the mapping dialog. You can also choose to
 exclude specific fields from the import. The image below shows a set of
 mappings for a typical import.
 
-![](./media/image186.png)
+![](./media/image208.png)
 
 You can also preview the data in the file using the Data tab, **but
 currently you can't edit the data**.
 
-![](./media/image187.png)
+![](./media/image209.png)
 
 Here is an example of a CSV file viewed in Excel, containing sample
 information for two boreholes with FROM and TO depth fields.
 
-![](./media/image188.PNG)
+![](./media/image210.PNG)
 
-![](./media/image189.PNG)
+![](./media/image211.PNG)
 
 Once imported, the table will appear in the data tree.
 
-![](./media/image190.PNG)
+![](./media/image212.PNG)
 
 Double-click on the table entry, or use right-click, to view the table
 and edit the field mappings once loaded.
 
-![](./media/image191.PNG)
+![](./media/image213.PNG)
 
 The following example shows how to import a depth-related value, such as
 geophysical test data, with a single test DEPTH field.
 
-![](./media/image192.PNG)
+![](./media/image214.PNG)
 
-![](./media/image193.png)
+![](./media/image215.png)
 
 The following image below shows how the data from the tables can be used
 in log templates, for example.
 
-![](./media/image194.PNG)
+![](./media/image216.PNG)
 
 ### 
 
@@ -1767,16 +2024,16 @@ tables, much the same as a standard CSV import would be.
 
 From the main menu, choose ***Import \> AGS Data Format Tables***
 
-![](./media/image195.PNG)
+![](./media/image217.PNG)
 
 Select the AGS file (v3.1 and v4 is are both supported). The imported
 data will take the form of a borehole dataset folder. Expand the folder
 to explore the imported geology logs (if present in the data file) and
 the various test and descriptive tables.
 
-![](./media/image196.png)
+![](./media/image218.png)
 
-![](./media/image197.png)
+![](./media/image219.png)
 
 Sample AGS data taken from the AGS data format v4 example data file.
 
@@ -1789,31 +2046,31 @@ such as CSV.
 
 From the main menu, choose ***Import \> Well Log Data (\*.las)***
 
-![](./media/image198.PNG)
+![](./media/image220.PNG)
 
 The collar data is attached to the borehole entry in the data tree as a
 series of attributes.
 
-![](./media/image199.PNG)
+![](./media/image221.PNG)
 
 The test data appears as a table called Curve Data under the Data Tables
 sub-folder of the borehole dataset folder (example file shown courtesy
 of Kansas Geological Survey download portal -
 <http://www.kgs.ku.edu/Magellan/Logs/>).
 
-![](./media/image200.PNG)
+![](./media/image222.PNG)
 
 Double-click the table, or use right-click to view and edit the table
 mappings and to preview the data values (not editable).
 
-![](./media/image201.png)
+![](./media/image223.png)
 
-![](./media/image202.png)
+![](./media/image224.png)
 
 The data in the table can be used in log templates, as-per any tabular
 data.
 
-![](./media/image203.png)
+![](./media/image225.png)
 
 #### Deviated LAS borehole
 
@@ -1823,12 +2080,12 @@ to perform a few extra steps.
 When your file chooser opens you will need to check the box on the right
 hand side.
 
-![](./media/image204.png)
+![](./media/image226.png)
 
 If the deviation path is recorded inside the las file you have chosen
 also check the new box that appears.
 
-![](./media/image205.png)
+![](./media/image227.png)
 
 Otherwise, leave it unchecked and you will be asked to choose the CSV
 which contains the deviation data.
@@ -1836,12 +2093,12 @@ which contains the deviation data.
 The familiar mapping dialog will then be presented where you will need
 to map the required fields -- LOCATION ID, DEPTH, DIP and AZIMUTH.
 
-![](./media/image206.png)
+![](./media/image228.png)
 
 Ensure that the units are selected for DEPTH, the default is METERS but
 if measured in feet, use the abbreviation **ft**.
 
-![](./media/image207.png)
+![](./media/image229.png)
 
 Click **Apply** and the borehole will be de-surveyed for viewing (best
 in 3D).
@@ -1857,30 +2114,30 @@ BGS holds driller's logs as scanned images for many of the borehole
 records. The locations of the records are available as a WMS (Web Map
 Service) which can be displayed in the Groundhog map window as a layer.
 
-![](./media/image208.png)
+![](./media/image230.png)
 
 From the panel on the right of the layer selection dialog, select the
 layer called **\[GeoIndex Boreholes theme\] Borehole records**.
 
-![](./media/image209.png)
+![](./media/image231.png)
 
 Zoom into an area to see the available records as a point layer.
 
-![](./media/image210.png)
+![](./media/image232.png)
 
 Make the WMS points layer active by clicking on it in the layer control.
 When it is active it will turn orange. Now that the layer is active,
 click on any dot in the map to perform an identify query. The results
 will display in a panel on the right.
 
-![](./media/image211.png)
+![](./media/image233.png)
 
 In the identify results panel, click on the borehole stick icon to
 hyperlink to the BGS record (opens in default web browser).
 
-![](./media/image212.png)
+![](./media/image234.png)
 
-![](./media/image213.png)
+![](./media/image235.png)
 
 #### Downloading AGS Data From BGS
 
@@ -1895,33 +2152,33 @@ Groundhog.
 
 In a map window, open the add layers dialog.
 
-![](./media/image208.png)
+![](./media/image230.png)
 
 From the panel on the right of the layer selection dialog, select the
 layer called **\[AGS Export\] Boreholes**.
 
-![](./media/image214.png)
+![](./media/image236.png)
 
 Zoom into an area to see the available records as a point layer.
 
-![](./media/image215.png)
+![](./media/image237.png)
 
 Make the WMS points layer active by clicking on it in the layer control.
 When it is active it will turn orange. Now that the layer is active,
 click on any dot in the map to perform an identify query. The results
 will display in a panel on the right.
 
-![](./media/image216.png)
+![](./media/image238.png)
 
-![](./media/image217.png)
+![](./media/image239.png)
 
 Click on the AGS save button in the identify results panel to attempt a
 download of the corresponding AGS data from the BGS database. Not all
 records have AGS data attached, but most should work.
 
-![](./media/image218.png)
+![](./media/image240.png)
 
-![](./media/image219.png)
+![](./media/image241.png)
 
 The data will appear in the object tree as a new borehole dataset folder
 ad can be worked with like any imported borehole dataset. The dataset
@@ -1945,11 +2202,11 @@ and trial pits.
 The first step is to create a new, blank template in the object tree via
 \<System Objects> \<Templates> \<right-click> \<New Template>
 
-![](./media/image220.png)
+![](./media/image242.png)
 
 Enter a name.
 
-![](./media/image221.PNG)
+![](./media/image243.PNG)
 
 There are two different types of templates -- those held in the
 workspace and those held against a specific project. Workspace templates
@@ -1962,24 +2219,24 @@ Next, send a borehole to the blank template using \<right-click> \<View
 Borehole Log> either in the object tree on from a borehole position in a
 map window.
 
-![](./media/image222.png)
+![](./media/image244.png)
 
-![](./media/image223.png)
+![](./media/image245.png)
 
 When prompted, choose the new template that you just created.
 
-![](./media/image224.png)
+![](./media/image246.png)
 
 Decide whether to always use this template for this borehole.
 
-![](./media/image225.png)
+![](./media/image247.png)
 
 The borehole will attempt to display in the blank template, but will
 most likely look incorrect/blank because at this stage the template has
 no way of knowing which data fields to display. To make the template
 look how you want it you will need to make some edits to the design.
 
-![](./media/image226.png)
+![](./media/image248.png)
 
 ### Editing Borehole Log Templates
 
@@ -1991,24 +2248,24 @@ Switch the template to edit mode. You can use either the edit mode
 button, or you can right-click in the template itself and choose \<Edit
 Template>.
 
-![](./media/image227.PNG)
+![](./media/image249.PNG)
 
 When the log template is in edit mode, the border lines will turn blue
 and an editing label will appear in red at the top of the page. To exit
 edit mode, press the \<Stop Editing Template> button again.
 
-![](./media/image228.png)
+![](./media/image250.png)
 
 Groundhog arranges the log design into three areas, the header, columns
 and footer.
 
-![](./media/image229.png)
+![](./media/image251.png)
 
 The size and width of the top-level areas can be modified by hovering
 over a template line and dragging it. When a line is drag-able, as the
 mouse hovers over it, it will highlight as an extended green line.
 
-![](./media/image230.png)
+![](./media/image252.png)
 
 #### Header
 
@@ -2016,9 +2273,9 @@ The header is a tabular component which can be used to display a
 document title, data fields, free-text labels and a corporate logo. To
 edit the contents of a cell, use right-click.
 
-![](./media/image231.png)
+![](./media/image253.png)
 
-![](./media/image232.png)
+![](./media/image254.png)
 
 The field and title values can be free text or taken from data fields in
 the borehole data itself. When you edit such a cell, you will be
@@ -2026,7 +2283,7 @@ presented with the field editing dialog. This dialog presents a list of
 available dynamic fields, both pre-set (e.g. date/time, page number) and
 data-driven (e.g. borehole attributes).
 
-![](./media/image233.png)
+![](./media/image255.png)
 
 The text field at the top contains the value that will be displayed. The
 list below presents a range of data fields that can be inserted into the
@@ -2045,23 +2302,23 @@ geotechnical log files and is just used here as an example of a field.
 The fields available will depend on the format and nature of your own
 borehole data.
 
-![](./media/image234.png)
+![](./media/image256.png)
 
 And this is how the value appears in the template once applied.
 
-![](./media/image235.png)
+![](./media/image257.png)
 
 You can also add values from any of the data tables attached to the
 borehole dataset using the Table Lookup button.
 
-![](./media/image236.png)
+![](./media/image258.png)
 
 Drill down to extract the desired field. In the example below, the
 project name field is being added from an AGS 4 dataset. In the case of
 AGS this is the PROJ_NAME field within the attached PROJ table. The
 Label field is not used in this feature.
 
-![](./media/image237.png)
+![](./media/image259.png)
 
 If you select a field from a table that has multiple rows, the value
 will be assigned according to the following policy;
@@ -2075,27 +2332,27 @@ will be assigned according to the following policy;
 You can add/remove columns and rows to the header table using
 right-click.
 
-![](./media/image238.png)
+![](./media/image260.png)
 
 Here is an example of a header table with a number of rows and columns
 added and some field defined.
 
-![](./media/image239.png)
+![](./media/image261.png)
 
 To add a company logo to the top left hand corner of the template, right
 click in that area and the following dialogue will allow you to choose a
 logo image file.
 
-![](./media/image240.PNG)
+![](./media/image262.PNG)
 
 Once you have chosen your logo, it will be available to all templates,
 as the image file will reside in the Groundhog home on your computer.
 You can change the logo, for all templates by selecting "Choose Logo"
-again or you can hide it.![](./media/image241.PNG)
+again or you can hide it.![](./media/image263.PNG)
 
 If hidden it can be un-hidden, by selecting "Show Logo"
 
-![](./media/image242.png)
+![](./media/image264.png)
 
 #### Columns
 
@@ -2108,13 +2365,13 @@ Start by adding a new column to the blank template. Hover over the
 header portion of a pre-existing log column and \<Insert Column on
 \[Left or Right\]\>.
 
-![](./media/image243.png)
+![](./media/image265.png)
 
 A prompt asks you to choose a graphical column type. Note that not all
 column types will work with all types of borehole or data field. Here we
 are adding a text column.
 
-![](./media/image244.png)
+![](./media/image266.png)
 
 The available column types are;
 
@@ -2149,11 +2406,11 @@ The prompt usually takes the form of a drill-down. Select the folder or
 table, and then the field containing the data. Below are some examples
 based on an imported AGS 4 file;
 
-![](./media/image245.png)
+![](./media/image267.png)
 
 GEOL_LEG field from the geology log (geology intervals folder)
 
-![](./media/image246.png)
+![](./media/image268.png)
 
 ISPT_MAIN data field in the ISPT test result table.
 
@@ -2162,16 +2419,16 @@ example the borehole installation column, which can show backfill and
 pipe data together. In such cases the mapping dialog will contain
 multiple tabs allowing the necessary field to be mapped.
 
-![](./media/image247.png)
+![](./media/image269.png)
 
 Once the data field mapping is completed, the column will be added to
 the template. You can access and edit the settings after the column is
 added using \<Right-Click> \<Edit TYPE Column> \<Column Settings> in the
 header of each column, for example;
 
-![](./media/image248.png)
+![](./media/image270.png)
 
-![](./media/image249.png)
+![](./media/image271.png)
 
 The settings dialog will look slightly different, depending on the type
 of the column. Often, the settings dialogs have additional settings that
@@ -2181,7 +2438,7 @@ exploring.
 To remove a column from the template \<Right-Click> on the column header
 and select \<Delete Column>
 
-![](./media/image250.png)
+![](./media/image272.png)
 
 Here are typical examples of each of the available column types, shown
 here using an example AGS 4 format borehole data file and a LAS format
@@ -2189,57 +2446,57 @@ geophysical file.
 
 **Borehole Installation Column**
 
-![](./media/image251.png)
+![](./media/image273.png)
 
 Example using BKFL.BKFL_LEG for the backfill mapping and PIPE.PIPE_TYPE
 for the pipe installation mapping.
 
 **Curve Column**
 
-![](./media/image252.png)
+![](./media/image274.png)
 
 Example using GR field from an imported LAS Curve Data table.
 
 **Depth Scale Log**
 
-![](./media/image253.png)
+![](./media/image275.png)
 
 Showing feet and metres scales.
 
 **Interval (Geology Log) Column**
 
-![](./media/image254.png)
+![](./media/image276.png)
 
 Example using GEOL.GEOL_LEG field.
 
 **Marker Depths Column**
 
-![](./media/image255.png)
+![](./media/image277.png)
 
 Example using GEOL.GEOL_LEG field, shown against a corresponding
 interval column.
 
 **Samples Column**
 
-![](./media/image256.png)
+![](./media/image278.png)
 
 Example using SAMP.SAMP_TYPE field.
 
 **Test Results Column**
 
-![](./media/image257.png)
+![](./media/image279.png)
 
 Example using ISPT.ISPT_REP field.
 
 **Text Column**
 
-![](./media/image258.png)
+![](./media/image280.png)
 
 Example using GEOL.GEOL_DESC field.
 
 **Water Strikes Column**
 
-![](./media/image259.png)
+![](./media/image281.png)
 
 Example using dual mapping of WSTD.WSTD_DPTH and WSTD.WSTD_POST for
 strike and rest level.
@@ -2247,7 +2504,7 @@ strike and rest level.
 Here is an example with several different column types added to a
 template based on AGS data.
 
-![](./media/image260.PNG)
+![](./media/image282.PNG)
 
 **IMPORTANT:** As you build up your template it is a good idea to save
 it regularly. Workspace templates are held in the global workspace of
@@ -2258,33 +2515,33 @@ need to be saved separately.
 
 Having added some columns, let's set up the template footer.
 
-![](./media/image261.png)
+![](./media/image283.png)
 
-![](./media/image262.png)
+![](./media/image284.png)
 
 #### Page Setup
 
 And finally, let's set the page size to A4, set the number of metres to
 display per-page, and fit the template to the page.
 
-![](./media/image263.png)
+![](./media/image285.png)
 
-![](./media/image260.PNG)
+![](./media/image282.PNG)
 
 \<Right-Click> anywhere \<Fit To Page>
 
-![](./media/image264.png)
+![](./media/image286.png)
 
-![](./media/image265.png)
+![](./media/image287.png)
 
 Here is an example of a wireline log style template.
 
-![](./media/image266.png)
+![](./media/image288.png)
 
 Note that the design template can also be used in the cross-section
 view.
 
-![](./media/image267.png)
+![](./media/image289.png)
 
 ### Viewing AGS Boreholes
 
@@ -2292,7 +2549,7 @@ If you right click on a borehole in the data tree which is an AGS
 borehole and select \<Log View>, you will have the option to open the
 log view using a standard AGS template:
 
-![](./media/image268.PNG)
+![](./media/image290.PNG)
 
 Selecting this option will automatically open the log view using the
 standard AGS template which is compatible with the data. Four templates
@@ -2307,12 +2564,12 @@ the revised template.
 You can export individual logs to a PDF file using this button in the
 log window toolbar.
 
-![](./media/image269.png)
+![](./media/image291.png)
 
 If you have Groundhog Professional you can also batch-export to PDF from
 the data folder in the tree.
 
-![](./media/image270.png)
+![](./media/image292.png)
 
 You will be prompted to select export options, including choosing a
 specific template. You can also have the reports exported as individual
@@ -2323,7 +2580,7 @@ If the boreholes are from AGS files and you leave the "Use Preferred
 Template" check on then the output will default to using the standard
 AGS log templates that ship with Groundhog.
 
-![](./media/image271.png)
+![](./media/image293.png)
 
 *Professional*
 
@@ -2333,7 +2590,7 @@ You can export boreholes and their associated data tables to a series of
 CSV files. This can be useful if you need to convert AGS data to a
 common spreadsheet format, for example.
 
-![](./media/image272.png)
+![](./media/image294.png)
 
 You will be prompted to choose an output folder. The export will produce
 one CSV per-data-table, plus one for the geology interval logs, if there
@@ -2348,31 +2605,31 @@ demonstrate this, we will create a blank borehole dataset to work into.
 
 From the object tree Location Layers folder \<right-click> \<New Layer>.
 
-![](./media/image273.png)
+![](./media/image295.png)
 
-![](./media/image274.png)
+![](./media/image296.png)
 
-![](./media/image275.png)
+![](./media/image297.png)
 
-Or from the layers panel of a map window.![](./media/image276.png)
+Or from the layers panel of a map window.![](./media/image298.png)
 
-![](./media/image274.png)
+![](./media/image296.png)
 
 If the new layer is not already visible in a map window, add it.
 
-![](./media/image277.png)
+![](./media/image299.png)
 
-![](./media/image278.png)
+![](./media/image300.png)
 
 Make the layer active in the map by clicking on it in the layers panel
 (turns orange when active).
 
-![](./media/image279.png)
+![](./media/image301.png)
 
 In the drawing palette, pick up the borehole placement tool (turns
 orange when selected).
 
-![](./media/image280.png)
+![](./media/image302.png)
 
 Single-click in the map to place new borehole object. Borehole collar
 dialog appears. Enter a name for the new borehole, adjust X,Y as desired
@@ -2382,61 +2639,61 @@ Surface Layer> button for the start height (ground level) field to set
 an elevation value for the top of the borehole, or type one manually if
 you have a more accurate one.
 
-![](./media/image281.png)
+![](./media/image303.png)
 
 Borehole appears in the map. Add as many boreholes as you like and then
 de-activate the borehole layer in the map.
 
-![](./media/image282.png)
+![](./media/image304.png)
 
 Hover the mouse over a borehole location and select \<right-click> \<New
 Geology Log>
 
-![](./media/image283.png)
+![](./media/image305.png)
 
 When prompted for a name for the log, just enter "1".
 
-![](./media/image284.png)
+![](./media/image306.png)
 
 This creates a geology interval log with 1m interval of SAND added to
 initialize the data structure. The log turns blue in the map to indicate
 the presence of a geology log.
 
-![](./media/image285.png)
+![](./media/image307.png)
 
 In the object tree, note the options available on the interval of SAND.
 
-![](./media/image286.png)
+![](./media/image308.png)
 
 Edit the interval using the dialog. Here we change the depth to the base
 of the first interval to be 7.4m (all values are depths, not elevations)
 and change its geology code to PEAT by typing it in.
 
-![](./media/image287.png)
+![](./media/image309.png)
 
 Use the \<Add/Delete Attribute> button to set new attribution on the
 interval. Here we add a field for a description.
 
-![](./media/image288.png)
+![](./media/image310.png)
 
-![](./media/image289.png)
+![](./media/image311.png)
 
-![](./media/image290.png)
+![](./media/image312.png)
 
-![](./media/image291.png)
+![](./media/image313.png)
 
 Type a value for the new field into the new entry row that has appeared.
 
-![](./media/image292.png)
+![](./media/image314.png)
 
 Add new geology intervals in the same way using the interval editing
 dialog.
 
-![](./media/image293.png)
+![](./media/image315.png)
 
-![](./media/image294.png)
+![](./media/image316.png)
 
-![](./media/image295.png)
+![](./media/image317.png)
 
 # Drawing Points, Shapes & Annotations
 
@@ -2447,7 +2704,7 @@ to style objects with colours and fills. It does not include how to draw
 into the Geology layer of a cross-section -- for that please refer to
 **Drawing Cross-Sections**.
 
-![](./media/image296.jpeg)
+![](./media/image318.jpeg)
 
 *Photo by Plush Design Studio on Unsplash*
 
@@ -2477,48 +2734,48 @@ cross-sections). Create a new point layer from the object tree by
 right-clicking on the Location Layers folder, or from the map layer
 control panel by right-clicking in a blank whitespace area of the panel.
 
-![](./media/image297.png)
+![](./media/image319.png)
 
 Or...
 
-![](./media/image298.png)
+![](./media/image320.png)
 
 Enter a name for the layer.
 
-![](./media/image299.png)
+![](./media/image321.png)
 
 Make the layer active in the map by clicking on it in the layer control
 panel. It will turn orange when active.
 
-![](./media/image300.png)
+![](./media/image322.png)
 
 The drawing tool for points appears as a floating drawing tools palette.
 You can drag the palette around using the green bar at the top.
 
-![](./media/image301.png)
+![](./media/image323.png)
 
 To draw points, pick up the point drawing tool from the palette by
 clicking on it. When it is active it will turn orange.
 
-![](./media/image302.png)
+![](./media/image324.png)
 
 Single-click in the map to place points at the desired locations. When
 you are finished, de-activate the point layer in the map.
 
-![](./media/image303.png)
+![](./media/image325.png)
 
-![](./media/image304.png)
+![](./media/image326.png)
 
 Set the colour of the points using the point layer settings in the layer
 control panel.
 
-![](./media/image305.png)
+![](./media/image327.png)
 
-![](./media/image306.png)
+![](./media/image328.png)
 
-![](./media/image307.png)
+![](./media/image329.png)
 
-![](./media/image308.png)
+![](./media/image330.png)
 
 #### Attributing Points
 
@@ -2526,11 +2783,11 @@ You can set name-value pair attributes on any point objects. With the
 layer active in the map, hover the mouse over a point and use
 \<right-click> \<Attribute Location>.
 
-![](./media/image309.PNG)
+![](./media/image331.PNG)
 
 Specify an attribute name and value.
 
-![](./media/image310.PNG)
+![](./media/image332.PNG)
 
 The dictionary on button on the right allows you to select from a list
 of commonly used attribute names.
@@ -2545,16 +2802,16 @@ Presents a dialogue box requesting Dip, Azimuth, Radius and Geology.
 Radius is the distance in metres that the point affects and setting this
 measurement varies the size of the dip measurement
 
-![](./media/image311.PNG) ![](./media/image312.PNG)
+![](./media/image333.PNG) ![](./media/image334.PNG)
 
 Geology is optional and is available as a shortcut way of entering this
 attribute.
 
-![](./media/image305.png)
+![](./media/image327.png)
 
-![](./media/image313.png)
+![](./media/image335.png)
 
-![](./media/image314.png)
+![](./media/image336.png)
 
 ### Creating & Editing Shape Layers
 
@@ -2563,32 +2820,32 @@ into cross-sections). Create a new shape layer from the object tree by
 right-clicking on the Shape Layers folder, or from the map layer control
 panel by right-clicking in a blank whitespace area of the panel.
 
-![](./media/image315.png)
+![](./media/image337.png)
 
 Or...
 
-![](./media/image316.png)
+![](./media/image338.png)
 
 Enter a name for the layer.
 
-![](./media/image317.png)
+![](./media/image339.png)
 
 Make the layer active in the map by clicking on it in the layer control
 panel. It will turn orange when active.
 
-![](./media/image318.png)
+![](./media/image340.png)
 
 The drawing tool for points appears as a floating drawing tools palette.
 You can drag the palette around using the green bar at the top.
 
-![](./media/image319.png)
+![](./media/image341.png)
 
-![](./media/image320.png)
+![](./media/image342.png)
 
 The drawing palette contains a number of drawing tools. Hover over each
 tool to see a short description.
 
-![](./media/image321.png)
+![](./media/image343.png)
 
 The following tools are available,
 
@@ -2604,9 +2861,9 @@ Single-click on a tool to select it. **When a tool is active it will
 turn orange**. To de-select the tool, click it a second time. In the
 following example we are using the polyline tool to digitize lines.
 
-![](./media/image322.png)
+![](./media/image344.png)
 
-![](./media/image323.png)
+![](./media/image345.png)
 
 If you want to convert a polyline to a polygon, drag the last vertex
 towards the first vertex until it "snaps". Alternatively, on the line
@@ -2621,7 +2878,7 @@ be edited;
 
 -   Add new vertices by double clicking on a line segment.
 
-![](./media/image324.png)
+![](./media/image346.png)
 
 #### Attributing & Tagging Shapes
 
@@ -2629,38 +2886,38 @@ You can set name-value pair attributes on any shape objects. With the
 layer active in the map, hover the mouse over a line and use
 \<right-click> \<Attribute Shape>.
 
-![](./media/image325.png)
+![](./media/image347.png)
 
 Specify an attribute name and value. In this example we are setting a Z
 value so that the line could represent a structure contour, for example.
 
-![](./media/image326.PNG)
+![](./media/image348.PNG)
 
 You can tag shapes with a geology code automatically as you draw just by
 setting an active drawing code other than "Shape".
 
-![](./media/image327.png)
+![](./media/image349.png)
 
-![](./media/image328.png)
+![](./media/image350.png)
 
 With a geology drawing code set, draw the shape and it will be
 attributed with a field called "GEOLOGY" containing the drawing code
 that was active at the time.
 
-![](./media/image329.png)
+![](./media/image351.png)
 
 You can also tag a shape with certain pre-set special attribute value.
 These are accessible by hover on the line and using \<right-click>
 
-![](./media/image330.png)
+![](./media/image352.png)
 
-![](./media/image331.png)
+![](./media/image353.png)
 
 These tags cause the objects to act in certain special ways. For
 example, tagging a site boundary will style the shape as a bold, red
 line.
 
-![](./media/image332.png)
+![](./media/image354.png)
 
 #### Polygons With Holes
 
@@ -2670,20 +2927,20 @@ shape layer. Make sure each shape is a polygon either by dragging the
 last vertex towards the first to snap together, or via \<Right-Click>
 \<Make Polygon> on each line.
 
-![](./media/image333.png)
+![](./media/image355.png)
 
 Next, in the data tree, use \<Right-Click> \<Tools> \<Build
 Multi-Polygons> on the shape layer.
 
-![](./media/image334.png)
+![](./media/image356.png)
 
-![](./media/image335.png)
+![](./media/image357.png)
 
 Groundhog will auto-detect the holes. This function operates to any
 level of nested detail. For very complex shape layers the auto-detection
 may take several moments to complete.
 
-![](./media/image336.png)
+![](./media/image358.png)
 
 ### Creating & Editing Annotation Layers
 
@@ -2712,33 +2969,33 @@ Use \<right-click> \<New Annotation Layer> in the layer control panel of
 either a map window or a cross-section window. In the following example
 we are working into a map window.
 
-![](./media/image337.png)
+![](./media/image359.png)
 
 Enter a name. Note that you can have as many annotation layers as you
 like, so long as you give them unique names within the project.
 
-![](./media/image338.png)
+![](./media/image360.png)
 
 Make the layer active so that we can draw into it. When active it will
 display in orange.
 
-![](./media/image339.png)
+![](./media/image361.png)
 
 When the layer is active the floating drawing tool palette will appear
 with a series of annotation-specific tools available.
 
-![](./media/image340.png)
+![](./media/image362.png)
 
   ------------------------------------------------------------------------------------------
-  ![](./media/image341.png)   Label                 Place a label into the layer
+  ![](./media/image363.png)   Label                 Place a label into the layer
   --------------------------- --------------------- ----------------------------------------
-  ![](./media/image342.png)   Callout               Place a callout into the layer
+  ![](./media/image364.png)   Callout               Place a callout into the layer
 
-  ![](./media/image343.png)   Graphic               Place a graphic into the layer
+  ![](./media/image365.png)   Graphic               Place a graphic into the layer
 
-  ![](./media/image344.png)   Arrow                 Place an arrow shape into the layer
+  ![](./media/image366.png)   Arrow                 Place an arrow shape into the layer
 
-  ![](./media/image345.png)   Shape                 Place a shape, from a library of
+  ![](./media/image367.png)   Shape                 Place a shape, from a library of
                                                     available shapes, into the layer
   ------------------------------------------------------------------------------------------
 
@@ -2750,17 +3007,17 @@ Click the button again to toggle the tool off.
 
 Select the labels tool.
 
-![](./media/image346.png)
+![](./media/image368.png)
 
 Single-click in the graphics panel (map or section window) where you
 want to place the label.
 
-![](./media/image347.png)
+![](./media/image369.png)
 
 A prompt will appear for you to enter the label text. Enter the desired
 text (this can be edited later) and click OK.
 
-![](./media/image348.png)
+![](./media/image370.png)
 
 The label will appear as a square with a white fill and black outline.
 It is shown above against a topographic basemap just for context.
@@ -2769,32 +3026,32 @@ It is shown above against a topographic basemap just for context.
 
 Callouts are just labels with a small pointer. There are several options
 for these accessible within the general shapes tool
-![](./media/image345.png) but there is also a short-cut callout
+![](./media/image367.png) but there is also a short-cut callout
 placement tool for convenience in the main tools palette.
 
-![](./media/image349.png)
+![](./media/image371.png)
 
 Select the callout tool and then click in the graphics panel (map or
 cross-section) to place the object into the scene. A prompt will appear
 for the callout label text.
 
-![](./media/image350.png)
+![](./media/image372.png)
 
 The callout will appear in the scene with a white fill and black
 outline.
 
-![](./media/image351.png)
+![](./media/image373.png)
 
 #### Placing Arrows
 
 Select the arrow tool and then click in the graphics panel (map or
 cross-section) to place the object into the scene.
 
-![](./media/image352.png)
+![](./media/image374.png)
 
 The arrow will appear in the scene with a white fill and black outline.
 
-![](./media/image353.png)
+![](./media/image375.png)
 
 #### Placing Shapes
 
@@ -2805,20 +3062,20 @@ such shapes.
 Select the shapes tool and then click in the graphics panel (map or
 cross-section) to place the object into the scene.
 
-![](./media/image354.png)
+![](./media/image376.png)
 
 A library dialog will appear with a selection of shapes available.
 
-![](./media/image355.png)
+![](./media/image377.png)
 
 Single-click on the desired shape to highlight it and then click OK to
 add to the scene. In the below example we highlight Circle.
 
-![](./media/image356.png)
+![](./media/image378.png)
 
 The object is added to the scene with a white fill and black outline.
 
-![](./media/image357.png)
+![](./media/image379.png)
 
 ### 
 
@@ -2832,9 +3089,9 @@ appear in green.
 **To re-position**, left-click/hold and drag the active object to
 re-position.
 
-![](./media/image358.png)
+![](./media/image380.png)
 
-![](./media/image359.png)
+![](./media/image381.png)
 
 With the shape active you can also use the arrow keys on your keyboard
 to move the shape for precise control.
@@ -2842,16 +3099,16 @@ to move the shape for precise control.
 **To re-size**, with the shape active, use one of the 8 control handles
 around the border of the shape to stretch it.
 
-![](./media/image360.png)
+![](./media/image382.png)
 
-![](./media/image361.png)
+![](./media/image383.png)
 
 **To rotate**, use the top-most handle. Drag the handle to rotate the
 shape.
 
-![](./media/image362.png)
+![](./media/image384.png)
 
-![](./media/image363.png)
+![](./media/image385.png)
 
 Note that, once a shape is rotated, the re-size handles are no longer
 available. So, make sure to set the correct size of the shape prior to
@@ -2870,7 +3127,7 @@ you can use.
 
 Select the graphic tool from the drawing palette.
 
-![](./media/image364.png)
+![](./media/image386.png)
 
 Single-click in the graphics panel (map or section window) to place
 pictures. In the following examples we are working into a cross-section.
@@ -2878,32 +3135,32 @@ You will be prompted to select the graphic picture to use from the
 library. Single-click to highlight/select the picture you want and click
 \<OK>.
 
-![cid:56bf7827-d83e-41d9-a893-ba263016cf41](./media/image365.jpeg)
+![cid:56bf7827-d83e-41d9-a893-ba263016cf41](./media/image387.jpeg)
 
 Use the green and white control nodes to move and re-size the picture,
 respectively.
 
-![](./media/image366.png)
+![](./media/image388.png)
 
 Annotation layers have two zoom modes. By default, the pictures will
 re-scale as you zoom in and out (dynamic re-sizing).
 
-![](./media/image367.png)
+![](./media/image389.png)
 
-![](./media/image368.png)
+![](./media/image390.png)
 
 Alternatively, you can switch to non dynamic re-sizing via the layer
 settings dialog.
 
-![](./media/image369.png)
+![](./media/image391.png)
 
-![](./media/image370.png)
+![](./media/image392.png)
 
 Add as many annotations as you wish. Here are some examples of the
 graphics supported within Groundhog. You are free to use these in
 outputs/reports, including for commercial projects.
 
-![](./media/image371.png)
+![](./media/image393.png)
 
 ## Styling and Formatting Objects
 
@@ -2925,39 +3182,39 @@ properties like font and font colour.
 Both lines and polygons can be styled. First, make sure the layer
 containing the shape is active.
 
-![](./media/image372.png)
+![](./media/image394.png)
 
 Single-click on the shape you wish to format to make it active. When it
 is active the nodes on the shape will turn green and a styling button
 will appear near to the mouse cursor.
 
-![](./media/image373.png)
+![](./media/image395.png)
 
-Click on the styling button ![](./media/image374.png)
+Click on the styling button ![](./media/image396.png)
 
 Alternatively, \<right-click> on the line itself and select \<Style
 Shape>
 
-![](./media/image375.png)
+![](./media/image397.png)
 
 A dialog appears which enables you to control the appearance of the line
 (colour, pattern, weight) and, in the case of a polygon, the fill colour
 and fill transparency.
 
-![](./media/image376.png)
+![](./media/image398.png)
 
-![](./media/image377.png)
+![](./media/image399.png)
 
-![](./media/image378.png)
+![](./media/image400.png)
 
 With the layer active, styling options for the cross-section alignments
 in the map can be accessed via \<right-click> \<Style Line>
 
-![](./media/image379.png)
+![](./media/image401.png)
 
-![](./media/image380.png)
+![](./media/image402.png)
 
-![](./media/image381.png)
+![](./media/image403.png)
 
 ### Styling Annotations
 
@@ -2968,13 +3225,13 @@ With the annotation layer active, single-click to select a shape. When
 it is active the control handles on the shape appear in green and a
 styling button will appear adjacent to the object.
 
-![](./media/image382.png)
+![](./media/image404.png)
 
 Click the button to open the styling and formatting dialog.
 Alternatively, \<right-click> on the shape and select \<Style and Edit
 Shape>
 
-![](./media/image383.png)
+![](./media/image405.png)
 
 The styling and formatting dialog for annotation layer shapes is more
 sophisticated than the one for simple shape layers. This is because it
@@ -2982,45 +3239,45 @@ allows you to control the appearance of any text associated with the
 object and precisely control position and rotation, as well as the line
 and fill characteristics.
 
-![](./media/image384.png)
+![](./media/image406.png)
 
 Entering text into the text panel at the top of the dialog will add text
 to the object in the scene. The text can then be styled with font, font
 style, alignment size and colour as desired. NOTE: to set font changes,
 remember to click \<Apply Font> before closing the dialog.
 
-![](./media/image385.png)
+![](./media/image407.png)
 
 You can also paste text into the text box using the usual Windows CTRL+V
 key command. Here is an example of a text box shape/object containing a
 large amount of formatted text.
 
-![](./media/image386.png)
+![](./media/image408.png)
 
 Use the other controls in the dialog to control the style, such as
 colour fill, transparency, line style etc.
 
-![](./media/image387.png)
+![](./media/image409.png)
 
 If you want a shape to have no border, simple set line weight to zero.
 
-![](./media/image388.png)
+![](./media/image410.png)
 
 Use the lower panel to control exact placement, dimensions and rotation.
 
-![](./media/image389.png)
+![](./media/image411.png)
 
 ### Duplicating Annotation Shapes
 
 Geometric shapes within annotation layers can be duplicated using
 \<right-click> \<Duplicate>
 
-![](./media/image390.png)
+![](./media/image412.png)
 
 This creates a clone with the same dimensions and formatting and will
 appear slightly offset from the original object.
 
-![](./media/image391.png)
+![](./media/image413.png)
 
 ### Ordering Annotation Shapes
 
@@ -3029,9 +3286,9 @@ order they are created. The last object you placed will be drawn on the
 top of the layer. You can re-order the placement of the objects,
 relative to the others in the layer using \<right-click> options.
 
-![](./media/image392.png)
+![](./media/image414.png)
 
-![](./media/image393.png)
+![](./media/image415.png)
 
 ### Re-Scaling an Annotation Layer
 
@@ -3041,9 +3298,9 @@ will be locked into the layer. This means that, regardless of how far in
 or out you are zoomed to the panel, the objects will stay at the same
 relative scale.
 
-![](./media/image394.png)
+![](./media/image416.png)
 
-![](./media/image395.png)
+![](./media/image417.png)
 
 Also, any new objects that you place into the layer will be placed using
 the same relative scale. So, a 12pt font will always be 12pt at the
@@ -3057,20 +3314,20 @@ illegible. To fix this problem, first zoom the graphics panel to the
 scale you need and then use the settings dialog for the annotation layer
 itself.
 
-![](./media/image396.png)
+![](./media/image418.png)
 
 In the settings dialog, click on the \<Rescale> button.
 
-![](./media/image397.png)
+![](./media/image419.png)
 
 This will rescale the layer which will correct font size and line
 weights BUT, it will not actually re-size your objects.
 
-![](./media/image398.png)
+![](./media/image420.png)
 
 So, you will still need to re-size the shapes manually if needed.
 
-![](./media/image399.png)
+![](./media/image421.png)
 
 ### Copying Styles Using the Format Painter
 
@@ -3078,16 +3335,16 @@ Styles can be copied from one object to the next under most
 circumstances. First, select the shape with the formatting that you wish
 to copy from.
 
-![](./media/image400.png)
+![](./media/image422.png)
 
 Next, click the Format Painter tool in the graphics window toolbar (map
 or section).
 
-![](./media/image401.png)
+![](./media/image423.png)
 
 Finally, single-click on the shape you wish to copy the formatting to.
 
-![](./media/image402.png)
+![](./media/image424.png)
 
 This functionality works across both map and section windows, so you can
 copy the style and format of an object in the map window to an object in
@@ -3099,7 +3356,7 @@ shape/polygon layers.
 This section provides details on how to construct and digitise
 spatially-referenced geological cross-sections using Groundhog.
 
-![](./media/image403.jpeg)
+![](./media/image425.jpeg)
 
 *Photo by Ivars Krutainis on Unsplash*
 
@@ -3114,7 +3371,7 @@ If you do not care about the map alignment and you just want to draw a
 cross-section of a specific length in isolation then you can use
 \<right-click> \<Tools> \<Create New Cross-Section> in the object tree.
 
-![](./media/image404.png)
+![](./media/image426.png)
 
 This will prompt you for a name and a length and will then open up the
 cross-section in a new window ready for drawing, etc. Note that the
@@ -3130,7 +3387,7 @@ UK it is a good idea to add the default ***Topographic Basemap*** layer
 that is included with Groundhog for orientation purposes or
 alternatively import a geo-registered image of your site/project.
 
-![](./media/image405.png)
+![](./media/image427.png)
 
 In the map window, zoom in to the approximate desired location of the
 cross-section, making sure that the extent of the map covers the entire
@@ -3139,22 +3396,22 @@ cross-section alignment.
 If it isn't already there, add the default ***Cross-Sections*** layer to
 the window.
 
-![](./media/image406.png)
+![](./media/image428.png)
 
-![](./media/image407.png)
+![](./media/image429.png)
 
 You are going to be drawing into the Cross-Sections layer, so make it
 active by single-clicking on it in the layer control panel. When it's
 active it will highlight in orange colour.
 
-![](./media/image408.png)
+![](./media/image430.png)
 
 When the layer becomes active a drawing tool palette will appear in the
 map panel. There is only one tool available in cross-section layer mode,
 which is polyline. Pick this tool up by single-clicking on its icon in
 the palette. When it is active the tool will highlight in orange.
 
-![](./media/image409.png)
+![](./media/image431.png)
 
 Start drawing the alignment. **Single-click to add positions** to the
 alignment. **Double-click at the last vertex** of the alignment to
@@ -3162,18 +3419,18 @@ complete the operation. Cross-sections can have as many inflections as
 you like, or they can be just straight by only placing two vertices into
 the polyline.
 
-![](./media/image410.png)
+![](./media/image432.png)
 
 Enter a name for the cross-section. If you wish to abandon the line you
 have drawn, simply cancel the name input dialog.
 
-![](./media/image411.png)
+![](./media/image433.png)
 
 Continue drawing polylines to create cross-section alignments. When you
 are done drawing, make sure to de-activate the polyline tool by clicking
 on it so that it is no longer highlighted in orange.
 
-![](./media/image412.png)
+![](./media/image434.png)
 
 With the cross-section drawing complete it will be added to the object
 tree and is now available for display and digitizing operations (see
@@ -3191,7 +3448,7 @@ borehole. This confirms that Groundhog has detected the borehole
 location, so single-clicking at that location will add the borehole
 itself to the cross-section alignment.
 
-![](./media/image413.png)
+![](./media/image435.png)
 
 ### Modifying the Alignment
 
@@ -3199,21 +3456,21 @@ Once a cross-section alignment has been drawn in the map you can still
 modify it. First, make sure the **Cross-Sections** layer is visible and
 active in the map.
 
-![](./media/image408.png)
+![](./media/image430.png)
 
 #### Insert New Position
 
 Right-click on the segment of the polyline where you wish to insert a
 new map position and choose \<Insert New Position Into Cross-Section>.
 
-![](./media/image414.png)
+![](./media/image436.png)
 
-![](./media/image415.png)
+![](./media/image437.png)
 
 Click on the desired location in the map to insert it into that segment
 of the line.
 
-![](./media/image416.png)
+![](./media/image438.png)
 
 #### Extending a Cross-Section
 
@@ -3224,13 +3481,13 @@ closer to the end of the line that you wish to extent. Choose \<Extend
 Cross-Section>. The examples below show extending the cross-sections to
 the East (right).
 
-![](./media/image417.png)
+![](./media/image439.png)
 
-![](./media/image418.png)
+![](./media/image440.png)
 
-![](./media/image419.png)
+![](./media/image441.png)
 
-![](./media/image420.png)
+![](./media/image442.png)
 
 #### Removing a Position From the Alignment
 
@@ -3238,9 +3495,9 @@ To remove a specific position from the alignment polyline, right click
 on the desired position (one of the section ends or an inflection point)
 and choose \<Remove Position From Cross-Section>.
 
-![](./media/image421.png)
+![](./media/image443.png)
 
-![](./media/image422.png)
+![](./media/image444.png)
 
 **IMPORTANT:** Please note that modifying cross-section alignments may
 have adverse effects on any correlated geology linework or other
@@ -3253,9 +3510,9 @@ it in the object tree or (2) use \<right-click> \<View Cross-Section> in
 the tree or (3) \<right-click> on the alignment in the map and choose
 \<View Cross-Section>. The cross-section window opens in a new tab.
 
-![](./media/image423.png)
+![](./media/image445.png)
 
-![](./media/image424.png)
+![](./media/image446.png)
 
 Zoom to full extent to centre the data in the panel.
 
@@ -3265,19 +3522,19 @@ If a default surface layer (topography grid such as a DEM/DTM) is loaded
 and configured in the session then a topographic profile will be
 automatically generated and added as a ***Terrain Profile*** layer.
 
-![](./media/image425.png)
+![](./media/image447.png)
 
 If there is no grid available for this a flat profile will be generated.
 To change or update the topographic profile, open the settings for the
 ***Terrain Profile*** layer.
 
-![](./media/image426.png)
+![](./media/image448.png)
 
 Choose which grid layer to use for the profile generation and set a
 level of detail. If you want to sample the grid at full resolution,
 select "FULL" in this list.
 
-![](./media/image427.png)
+![](./media/image449.png)
 
 Click \<Apply> to make the changes. The profile will be updated. When
 using "FULL" resolution on fine grids the update may take a few moments
@@ -3296,32 +3553,32 @@ Data** chapter.
 If you have drawn your cross-section alignment through any borehole
 locations they will be displayed as a ***Boreholes*** layer.
 
-![](./media/image428.png)
+![](./media/image450.png)
 
 To begin with you may find that your boreholes appear as empty boxes
 with odd labels.
 
-![](./media/image429.png)
+![](./media/image451.png)
 
 This usually happens when the active log template is unsuitable for the
 data contained within the boreholes themselves. Change to a more
 suitable template using either the global template settings in the main
 status bar of Groundhog.
 
-![](./media/image430.png)
+![](./media/image452.png)
 
 Or, access the settings for the Borehole layer in the section window and
 choose a more appropriate template.
 
-![](./media/image431.png)
+![](./media/image453.png)
 
 In the settings dialog choose a suitable template and also specify the
 width (in metres) of the log sticks until the logs appear as you want
 them.
 
-![](./media/image432.png)
+![](./media/image454.png)
 
-![](./media/image433.png)
+![](./media/image455.png)
 
 If you don't have a suitable log template then you can design one. For
 more details please refer to the **Working With Borehole Logs** chapter.
@@ -3339,7 +3596,7 @@ alignment. To remove the buffered boreholes, use the **Borehole** -\>
 **Settings** dialog within the cross section window and change **Project
 Boreholes** distance to 0 (zero).
 
-![](./media/image434.png)
+![](./media/image456.png)
 
 ### Registering Images in Cross-Section
 
@@ -3347,26 +3604,26 @@ You can add images to a cross-sections as layers. This can be useful for
 showing geophysical data, for example. First, load the desired image
 into the project via \<Main Menu> \<Import> \<Image>.
 
-![](./media/image435.png)
+![](./media/image457.png)
 
 Position the cross-section panel to the approximate extent where you
 want the image to display. Add the image as a layer to the cross-section
 window.
 
-![](./media/image436.png)
+![](./media/image458.png)
 
 Select the image you wish to add.
 
-![](./media/image437.png)
+![](./media/image459.png)
 
 Image will appear, filling the visible extent of the graphics panel.
 
-![](./media/image438.png)
+![](./media/image460.png)
 
 Click on the image layer to make it active. Note that square, blue
 control handles appear in the top-left and bottom-right of the image.
 
-![](./media/image439.png)
+![](./media/image461.png)
 
 Use the top-left handle to move the image around and use the
 bottom-right handle to re-size the image. Whenever possible, try to use
@@ -3374,7 +3631,7 @@ an image that has scale-bars included so that you can compare the values
 to the mouse cursor position in order to fine-tune the image
 registration.
 
-![](./media/image440.png)
+![](./media/image462.png)
 
 ### Drawing Geology
 
@@ -3382,28 +3639,28 @@ Geological interpretation is drawn into the ***Geology*** layer. The
 ***Geology*** layer is added to cross-section windows by default, but if
 you can't see it then you can re-add it.
 
-![](./media/image441.png)
+![](./media/image463.png)
 
-![](./media/image442.png)
+![](./media/image464.png)
 
 Make the Geology layer the active layer by clicking on it. It will turn
 orange when it is active (to de-activate it, click on it again).
 
-![](./media/image443.png)
+![](./media/image465.png)
 
 When the Geology layer is active the drawing tool palette will appear in
 the graphics panel, with the polyline and pen tools available.
 
-![](./media/image444.png)
+![](./media/image466.png)
 
 Before you start to draw geology you need to select a drawing code. The
 default drawing code is a generic code labelled "Shape". Instead, you
 need to select a geology code. Click on the drawing code selector button
 and pick a geology code from the list.
 
-![](./media/image445.png)
+![](./media/image467.png)
 
-![](./media/image446.png)
+![](./media/image468.png)
 
 Note that the drawing code you select is then set as the active code and
 the button changes to display that code. In the above example, PEAT has
@@ -3415,13 +3672,13 @@ The polyline tool allows for accurate digitizing by placing each vertex
 individually. Click the button in the drawing tools palette to activate
 the polyline tool. When it is active it will turn orange.
 
-![](./media/image447.png)
+![](./media/image469.png)
 
 Single-click in the section to place vertices. Double-click to finish
 the line. Switch the polyline tool off when you are done drawing by
 clicking on it again in the palette.
 
-![](./media/image448.png)
+![](./media/image470.png)
 
 #### Pen Tool
 
@@ -3429,13 +3686,13 @@ The pen tool allows for rapid, fluid drawing. Click the button in the
 drawing tools palette to activate the pen tool. When it is active it
 will turn orange.
 
-![](./media/image449.png)
+![](./media/image471.png)
 
 Click and hold at the start of the line and drag the mouse to draw.
 Release the mouse button to stop drawing the line. When you are done
 drawing, switch off the pen tool by clicking on it again in the palette.
 
-![](./media/image450.png)
+![](./media/image472.png)
 
 To re-shape a line, click on it to make it active (vertices turn green)
 and then drag any of the vertices to re-shape. Double-click on a vertex
@@ -3461,23 +3718,23 @@ by clicking on it. When the line is active its vertices will turn green.
 Once active, drag the vertex at each end of the line towards another
 line, based on the three rules listed above.
 
-![](./media/image451.png)
+![](./media/image473.png)
 
 If you snap the end of a line to the terrain profile, you will be
 prompted like this. Click \<No> if you just want to keep a static
 profile, or \<Yes> to sample more accurate Z values from the terrain
 grid at the snap location.
 
-![](./media/image452.png)
+![](./media/image474.png)
 
 A special icon will appear at any snap positions.
 
-![](./media/image453.png)
+![](./media/image475.png)
 
 When both ends of a geology correlation line are snapped to something,
 the polygon builder will create a filled polygon for the deposit.
 
-![](./media/image454.png)
+![](./media/image476.png)
 
 Click away from the active line to de-activate it. Continue drawing and
 snapping to build up the cross-section. Remember to select the
@@ -3485,58 +3742,58 @@ appropriate drawing code before drawing each line. If you forget, make
 the line active by clicking on it then use \<right-click> \<Change
 Geology Code> and type in the new geology code.
 
-![](./media/image455.png)
+![](./media/image477.png)
 
-![](./media/image456.png)
+![](./media/image478.png)
 
-![](./media/image457.png)
+![](./media/image479.png)
 
 Don't worry if some existing polygons fail to render as you continue
 drawing. They should resolve themselves as soon as you snap the line you
 are working on. For example --
 
-![](./media/image458.png)
+![](./media/image480.png)
 
-![](./media/image459.png)
+![](./media/image481.png)
 
 Moving any snapped positions will cause an edit to both correlation
 lines (except at the topographic profile).
 
-![](./media/image460.png)
+![](./media/image482.png)
 
 If you need to un-snap a snap location, hold the CTRL key as you drag
 the node away from the snap location.
 
-![](./media/image461.png)
+![](./media/image483.png)
 
 Create a correlation line at a fixed elevation using \<right-click>
 \<Create Line \[DRAWING CODE\]\> anywhere in the panel.
 
-![](./media/image462.png)
+![](./media/image484.png)
 
 Choose the datum (O.D. or DEPTH).
 
-![](./media/image463.png)
+![](./media/image485.png)
 
-![](./media/image464.png)
+![](./media/image486.png)
 
-![](./media/image465.png)
+![](./media/image487.png)
 
 The geology that has been drawn into a cross-section can be previewed
 rapidly in the map by holding the SHIFT key and hovering over the
 alignment. If there is geological line-work at that location the
 sequence and thicknesses will be shown in a schematic image.
 
-![](./media/image74.png)
+![](./media/image75.png)
 
 #### Split Geology Line
 
 A geology line can now be split into two lines by right clicking on the
 line at the position where it should be split and selecting **\<split>**
 
-![](./media/image466.PNG)
+![](./media/image488.PNG)
 
-![](./media/image467.PNG)
+![](./media/image489.PNG)
 
 In order to move the new node that has been placed in the split
 position, you will need to hold down the CTRL key, to prevent the two
@@ -3549,7 +3806,7 @@ around your site data within Groundhog.
 
 *Professional*
 
-![](./media/image468.jpeg)
+![](./media/image490.jpeg)
 
 *Photo by Shane McLendon on Unsplash*
 
@@ -3573,16 +3830,16 @@ develop separate models for different phases of a project, for example
 desk study, remediation, monitoring. Create a Phase object to contain
 the CSM using on Phases Folder.
 
-![](./media/image469.PNG)
+![](./media/image491.PNG)
 
 Enter a name.
 
-![](./media/image470.PNG)
+![](./media/image492.PNG)
 
 This initializes a CSM structure in the object tree as a series of
 folders, one per component type within the CSM.
 
-![](./media/image471.PNG)
+![](./media/image493.PNG)
 
 The available CSM component types are;
 
@@ -3597,24 +3854,24 @@ The available CSM component types are;
 Create any one of these using \<Right-click> on the appropriate folder
 \<Add \[Component Type\]\> for example \<Add Source>.
 
-![](./media/image472.PNG)
+![](./media/image494.PNG)
 
 Enter a name for the component and an optional description. You can also
 use the picklist key to browse a list of pre-set options.
 
-![](./media/image473.PNG)
+![](./media/image495.PNG)
 
 The component is added to the folder. In this case, expanding the new
 source object reveals a series of attributes.
 
-![](./media/image474.PNG)
+![](./media/image496.PNG)
 
 The CSM_HANDLE is the unique ID attributed to the component in the
 system.
 
 Continue adding as many components as you wish to the model.
 
-![](./media/image475.PNG)
+![](./media/image497.PNG)
 
 ## Creating Pollutant Linkages 
 
@@ -3624,21 +3881,21 @@ linkage to or from that linkage.
 
 Here we link the contaminant "Benzene" to the Source "Filling Station".
 
-![](./media/image476.PNG)
+![](./media/image498.PNG)
 
 Click \<Contaminant -\> Source> button.
 
-![](./media/image477.PNG)
+![](./media/image499.PNG)
 
 Highlight the Source component you wish to link to the Benzene
 contaminant (in this case, there is only one, "Filling Station").
 
-![](./media/image478.PNG)
+![](./media/image500.PNG)
 
 Click \<Copy to selection \>\>\> to add "Filling Station" to the panel
 on the right and click \<Apply> to create the linkage in the data model.
 
-![](./media/image479.PNG)
+![](./media/image501.PNG)
 
 Continue in this way, creating all of the conceptual linkages within the
 model. You can create the following types of linkage;
@@ -3661,13 +3918,13 @@ warning message will be displayed.
 
 The linkages are displayed in the Pollutant Linkages folder.
 
-![](./media/image480.PNG)
+![](./media/image502.PNG)
 
 \<Right-Click> on a linkage to delete it. You can also "break" the
 linkage, which allows you to record information about how the linkage
 has been broken within the conceptual model.
 
-![](./media/image481.PNG)
+![](./media/image503.PNG)
 
 When a linkage is broken it shows that it has been addressed and will
 display with a green tick mark. Hovering over the linkage will display
@@ -3675,9 +3932,9 @@ the description of the break. The break can be removed using
 
 \<Right-Click>\<Un-break Linkage>.
 
-![](./media/image482.PNG)
+![](./media/image504.PNG)
 
-![](./media/image483.PNG)
+![](./media/image505.PNG)
 
 **IMPORTANT:** note that if you decide to delete a CSM component that is
 used by any of the linkages, all of those linkages will also be
@@ -3693,11 +3950,11 @@ components of the model are connected in terms of pollutant linkages.
 \<Right-Click> on the Network Diagrams sub-folder of the CSM structure
 in the object tree and click \<Create Network Diagram>.
 
-![](./media/image484.PNG)
+![](./media/image506.PNG)
 
 There are three types of diagram to choose from.
 
-![](./media/image485.PNG)
+![](./media/image507.PNG)
 
 1.  S-P-R -- Source-Pathway-Receptor
 
@@ -3707,46 +3964,46 @@ There are three types of diagram to choose from.
 
 Here we show an S-C-P-R diagram.
 
-![](./media/image486.png)
+![](./media/image508.png)
 
 Drag the component boxes and the labels around as desired.
 
-![](./media/image487.PNG)
+![](./media/image509.PNG)
 
 Use the handles in the bottom-right of each box to re-size.
 
-![](./media/image488.PNG)
+![](./media/image510.PNG)
 
 \<Right-Click> in a CSM model component box to edit settings like colour
 and to create new linkages.
 
-![](./media/image489.PNG)
+![](./media/image511.PNG)
 
 \<Right-Click> \<Add Label> in any whitespace region of the panel to
 create new text labels.
 
-![](./media/image490.PNG)
+![](./media/image512.PNG)
 
 \<Right-Click> on individual labels to edit the text or delete the
 label.
 
-![](./media/image491.PNG)
+![](./media/image513.PNG)
 
 \<Right-Click> \<Add Arrow Label> in any whitespace region of the panel
 to create new labels which will be attached to a line, which can be used
 to point to the required linkage arrow.
 
-![](./media/image492.PNG)
+![](./media/image514.PNG)
 
-![](./media/image493.PNG)
+![](./media/image515.PNG)
 
 \<Right-Click> on the label to edit it
 
-![](./media/image494.PNG)
+![](./media/image516.PNG)
 
 Click and drag the blue box at the end of the line to move it
 
-![](./media/image495.PNG)
+![](./media/image517.PNG)
 
 Note the **Add Image** option does not currently work.
 
@@ -3754,11 +4011,11 @@ Note the **Add Image** option does not currently work.
 the next component box and select \<Break Linkage> to break the linkage
 in the system.
 
-![](./media/image496.PNG)
+![](./media/image518.PNG)
 
 Broken linkages display as partial grey lines with a red cross on them.
 
-![](./media/image497.PNG)
+![](./media/image519.PNG)
 
 You can un-break a linkage using \<Right-Click> \<Un-break Linkage>. The
 reason for the linkage has been broken is shown just above the red
@@ -3773,21 +4030,21 @@ clicking on it in the data tree and selecting **Rename**.
 The following buttons are available in the network diagram toolbar.
 
   ----------------------------------------------------------------------------------------------
-  ![](./media/image498.png)   Export Image          Save a copy of the diagram to JPEG or PNG
+  ![](./media/image520.png)   Export Image          Save a copy of the diagram to JPEG or PNG
                                                     format image.
   --------------------------- --------------------- --------------------------------------------
-  ![](./media/image499.png)   Refresh               Re-builds the diagram, picking up any new
+  ![](./media/image521.png)   Refresh               Re-builds the diagram, picking up any new
                                                     CSM model components that have been added
                                                     and removing those that have been deleted.
 
-  ![](./media/image500.png)   Hide components       Hides any non-linked CSM model components
+  ![](./media/image522.png)   Hide components       Hides any non-linked CSM model components
                                                     from the diagram.
 
-  ![](./media/image501.png)   New colours           Allocates new, random, colours to the
+  ![](./media/image523.png)   New colours           Allocates new, random, colours to the
                                                     linkages. Useful if the default colour
                                                     scheme is undesirable.
 
-  ![](./media/image502.png)   Print                 Send the diagram to a printer.
+  ![](./media/image524.png)   Print                 Send the diagram to a printer.
   ----------------------------------------------------------------------------------------------
 
 ## Drawing CSM Objects in Map and Cross-Section
@@ -3807,7 +4064,7 @@ First, add the Phase object to the window (map or cross-section) as a
 layer and click on it to make it active. The layer will turn orange when
 it is active.
 
-![](./media/image503.PNG)
+![](./media/image525.PNG)
 
 Once active, the drawing tools will appear allowing you to draw into the
 Phase layer. Draw a shape into the layer. When you double-click to
@@ -3815,7 +4072,7 @@ finish the shape you will be prompted to tag it as a CSM model
 component. All shapes drawn into Phase layers MUST be tagged with a CSM
 model component.
 
-![](./media/image504.PNG)
+![](./media/image526.PNG)
 
 If you have drawn a polyline, you can make the line active and then snap
 the two ends together to form a polygon.
@@ -3825,7 +4082,7 @@ case receptor colour) and a label with the name of the component will
 appear. The example below show a polygon drawn to indicate the extent of
 a proposed residential development.
 
-![](./media/image505.PNG)
+![](./media/image527.PNG)
 
 ### Annotations
 
@@ -3838,9 +4095,9 @@ When a picture is added, if a Phase exists within the session, you will
 be prompted to tag the picture with a CSM component. Pressing \<Cancel>
 on this prompt results in the picture being added with no tag.
 
-![](./media/image506.png)
+![](./media/image528.png)
 
-![](./media/image507.PNG)
+![](./media/image529.PNG)
 
 A picture can also be tagged with a CSM component after it has been
 added to the Map or Section window. To do this, with an annotation layer
@@ -3855,7 +4112,7 @@ To do this, with an annotation layer active, \<Right-Click> on the first
 node of an arrow object and select a component type from the \<Site
 Investigation> menu.
 
-![](./media/image508.PNG)
+![](./media/image530.PNG)
 
 ### Drawing Water Levels and Defining Aquifers
 
@@ -3865,70 +4122,70 @@ define the saturated zone.
 
 First, draw the geology into the cross-section.
 
-![](./media/image509.PNG)
+![](./media/image531.PNG)
 
 To draw the water level, create a new shape layer in the cross-section
 using \<Right-Click> \<New Shape Layer> in the layer control panel.
 
-![](./media/image510.PNG)
+![](./media/image532.PNG)
 
 Enter a name (the name is not important).
 
-![](./media/image511.PNG)
+![](./media/image533.PNG)
 
 The layer will be added and will become active automatically so that you
 can draw into it. Pick up a drawing tool and draw the water level.
 
-![](./media/image512.PNG)
+![](./media/image534.PNG)
 
 Switch off the drawing tool and click on the line to make it active.
 When it is active the line vertices will turn green.
 
-![](./media/image513.PNG)
+![](./media/image535.PNG)
 
 \<Right-Click> on the line and select \<Tag Shape As...>
 
-![](./media/image514.PNG)
+![](./media/image536.PNG)
 
 In the options that appear, select "WATER LEVEL".
 
-![](./media/image515.PNG)
+![](./media/image537.PNG)
 
 De-activate the shape layer in the layer control. The water level line
 will appear styled in a particular way to denote water level.
 
-![](./media/image516.PNG)
+![](./media/image538.PNG)
 
 Next, you need to tell Groundhog which geological unit is the aquifer
 unit. This is linked to the CSM, so you will need to make sure you have
 an aquifer model component defined (i.e. as a receptor component) within
 the model.
 
-![](./media/image517.PNG)
+![](./media/image539.PNG)
 
 Make the Geology layer active in the layer control. \<Right-Click> in
 the cross-section on the geological unit that corresponds to the aquifer
 and select \<Site Investigation> \<Tag as Aquifer?>.
 
-![](./media/image518.PNG)
+![](./media/image540.PNG)
 
 Select the Phase.
 
-![](./media/image519.PNG)
+![](./media/image541.PNG)
 
 Select the aquifer from the list of receptors.
 
-![](./media/image520.PNG)
+![](./media/image542.PNG)
 
 Click \<Yes>
 
-![](./media/image521.PNG)
+![](./media/image543.PNG)
 
 The aquifer unit will be outlined in blue and the saturated zone shaded
 in blue. Use the transparency of the Geology layer and in the water
 level shape layer to get the best image.
 
-![](./media/image522.PNG)
+![](./media/image544.PNG)
 
 ## Accessing Historic Maps
 
@@ -3947,34 +4204,34 @@ Groundhog software.
 \<Right-Click> at the desired location in the map and select \<Site
 Investigation> \<Browse Historic Maps>.
 
-![](./media/image523.PNG)
+![](./media/image545.PNG)
 
 You will be shown this message:
 
-![](./media/image524.PNG)
+![](./media/image546.PNG)
 
 The NLS website should open in your default web browser. Typically, when
 the website first opens, an info box obscures the map view. Click the
 cross in the top right corner to close this.
 
-![](./media/image525.png)
+![](./media/image547.png)
 
 You should now see the historic map view zoomed to approximately the
 same scale and location as your Groundhog map view.
 
-![](./media/image526.png)
+![](./media/image548.png)
 
 Single-click anywhere in the map. A panel should appear on the right
 showing a list view of the vintages of historic map available for that
 location.
 
-![](./media/image527.PNG)
+![](./media/image549.PNG)
 
 Click on the hyperlinks in this list panel to open the map you want to
 view. The interactive map view will load. Zoom and pan in the historic
 map to see the area you are interested in.
 
-![](./media/image528.PNG)
+![](./media/image550.PNG)
 
 *NLS Website Image*
 
@@ -3986,7 +4243,7 @@ Groundhog.
 
 *Professional*
 
-![](./media/image529.jpeg)
+![](./media/image551.jpeg)
 
 *Photo by Ruslan Keba on Unsplash*
 
@@ -4030,7 +4287,7 @@ to project boundaries or other irregular polygonal shapes.
 In the object tree, navigate to *Models \> Layer Models* and select
 *Right-Click \> New Model*.
 
-![](./media/image530.png)
+![](./media/image552.png)
 
 The model editing dialog appears. Enter the necessary information to set
 the name of the model (free-text), choose which elevation model from the
@@ -4040,7 +4297,7 @@ coarse resolution for the moment, you can refine it later. If you have a
 map window open and zoomed to the model area, you can use the *Extent
 From Map* button to populate the bounding box fields automatically.
 
-![](./media/image531.png)
+![](./media/image553.png)
 
 Review the input dialog an make sure you have set the following;
 
@@ -4055,25 +4312,25 @@ Review the input dialog an make sure you have set the following;
 
 Click *Apply*. The model definition will be added to the object tree.
 
-![](./media/image532.png)
+![](./media/image554.png)
 
 Add the model to a map window.
 
-![](./media/image533.png)
+![](./media/image555.png)
 
-![](./media/image534.png)
+![](./media/image556.png)
 
 Open the settings for the model in the map window.
 
-![](./media/image535.png)
+![](./media/image557.png)
 
 Check-on Model Outline and Model Grid.
 
-![](./media/image536.png)
+![](./media/image558.png)
 
 Model outline and grid are now visible in the map.
 
-![](./media/image537.png)
+![](./media/image559.png)
 
 **IMPORTANT: Now save the project.** For model building, Groundhog needs
 an output folder.
@@ -4109,29 +4366,29 @@ user-added inputs.
 To get started, let's define some outcrop positions. Right-click to
 create a new point layer in the map.
 
-![](./media/image538.png)
+![](./media/image560.png)
 
-![](./media/image539.png)
+![](./media/image561.png)
 
 Make the new layer editable and place some points. Here we are using the
 BGS 50k Bedrock Web Map Service as a guide to positioning these points
 at the BASE of a mapped unit. When the points have been placed,
 de-activate the point layer.
 
-![](./media/image540.png)
+![](./media/image562.png)
 
 In the object tree, *right-click on the model object \> Edit Model*
 
-![](./media/image541.png)
+![](./media/image563.png)
 
 Click the Create Layer button in the model editing dialog.
 
-![](./media/image542.png)
+![](./media/image564.png)
 
 If the model is new and the project has not been saved, you will see
 this.
 
-![](./media/image543.png)
+![](./media/image565.png)
 
 As models are calculated, their outputs are saved to the project folder.
 For this, Groundhog needs to know where the folder lives, so save the
@@ -4140,135 +4397,135 @@ project somewhere and then repeat the Create Layer action again.
 In the create layer dialog, enter a name for the layer and click the Add
 Inputs button.
 
-![](./media/image544.png)
+![](./media/image566.png)
 
 This is where we can select which data or parameters to use as input to
 the layer. Select the point layer we created as the input and click OK.
 
-![](./media/image545.png)
+![](./media/image567.png)
 
 The points are now added as an input to the layer. Click *Apply*.
 
-![](./media/image546.png)
+![](./media/image568.png)
 
 In the model editing dialog, click *Apply and Build*. If the model
 editing dialog is not open, right-click on the model in the object tree
 and select *Build*. The model will calculate, and the progress will be
 shown in the main progress bar.
 
-![](./media/image547.png)
+![](./media/image569.png)
 
 Or...
 
-![](./media/image548.png)
+![](./media/image570.png)
 
 Go back to the settings dialog for the model layer in the map window and
 tick-on the new layer. Also, switch to map coverage view.
 
-![](./media/image549.png)
+![](./media/image571.png)
 
-![](./media/image550.png)
+![](./media/image572.png)
 
 The calculated extent of the layer will be shown in the map. If it is
 unclear on top of the other layers, decrease the layer transparency
 using the slider bar in the layer control.
 
-![](./media/image551.png)
+![](./media/image573.png)
 
 Next we will add some geological map linework. This could be imported
 from a shapefile, but for this example we will draw it by hand. Create a
 new shape layer in the map window and make it editable.
 
-![](./media/image552.png)
+![](./media/image574.png)
 
-![](./media/image553.png)
+![](./media/image575.png)
 
 In the model editing dialog, open the settings for Layer A.
 
-![](./media/image554.png)
+![](./media/image576.png)
 
 Add the new linework to the layer input list.
 
-![](./media/image555.png)
+![](./media/image577.png)
 
-![](./media/image556.png)
+![](./media/image578.png)
 
 Apply and then re-build the model.
 
-![](./media/image557.png)
+![](./media/image579.png)
 
 Note that there is a portion of Layer A in the south-west that does not
 match the geological map. Draw a cross-section through the model to
 inspect it at this location.
 
-![](./media/image558.png)
+![](./media/image580.png)
 
 View the cross-section and add the model to the view as a layer.
 
-![](./media/image559.png)
+![](./media/image581.png)
 
 Let's add a component of dip to the layer using a structure contour.
 Draw a new line into the Layer A map.
 
-![](./media/image560.png)
+![](./media/image582.png)
 
 Switch the drawing tool off and right-click on the new line \>
 *Attribute Shape*.
 
-![](./media/image561.png)
+![](./media/image583.png)
 
 Set an attribute called "Z" with a value of "10". This attributes an
 elevation value of ten metres to the line, thereby making it a structure
 contour.
 
-![](./media/image562.png)
+![](./media/image584.png)
 
 This adds some additional dip to the layer, but still has not resolved
 the unwanted outlier in the south west.
 
-![](./media/image563.png)
+![](./media/image585.png)
 
 Draw another structure contour in the West, setting a Z value of 60m.
 This is effectively a structure contour in the air which can be used to
 pull the calculated surface up out of the ground.
 
-![](./media/image564.png)
+![](./media/image586.png)
 
 Re-build the model. The layer is now correctly resolved relative to the
 outcrop pattern.
 
-![](./media/image565.png)
+![](./media/image587.png)
 
 In the model editing dialog, increase the resolution of the model (e.g.
 to 10m cellsize from 100m) and re-build it.
 
-![](./media/image566.png)
+![](./media/image588.png)
 
-![](./media/image567.png)
+![](./media/image589.png)
 
 Next we will add another bedrock layer with a fixed elevation. Add a new
 layer to the model using the model editing dialog.
 
-![](./media/image568.png)
+![](./media/image590.png)
 
 Make the input to this layer a Fixed Elevation parameter.
 
-![](./media/image569.png)
+![](./media/image591.png)
 
 Here we set the elevation at 30m, for example.
 
-![](./media/image570.png)
+![](./media/image592.png)
 
 There are now two layers in the model. Re-build the model.
 
-![](./media/image571.png)
+![](./media/image593.png)
 
 Go to the settings for the model layer in the map window and check-on
 the visibility of the new layer.
 
-![](./media/image572.png)
+![](./media/image594.png)
 
-![](./media/image573.png)
+![](./media/image595.png)
 
 Note that the outcrop pattern of the new layer has been generated
 automatically, based on the intersection with the topography, and also
@@ -4277,93 +4534,93 @@ base of the layer above has also been detected automatically. Setting
 the model as semi-transparent in the map window shows the sub-crop map
 of Layer B beneath Layer A.
 
-![](./media/image574.png)
+![](./media/image596.png)
 
 Next we will create a Quaternary-style layer based on map linework and a
 thickness value. Create a new shape layer in the map to draw into.
 
-![](./media/image575.png)
+![](./media/image597.png)
 
-![](./media/image576.png)
+![](./media/image598.png)
 
 Make the new line active and snap the two ends together to form a
 polygon or right-click on the line and select *Make Polygon*.
 
-![](./media/image577.png)
+![](./media/image599.png)
 
 Create a new layer using the model editing dialog. Add the Quaternary
 map layer as the input and make sure to select a layer type of
 "Patches".
 
-![](./media/image578.png)
+![](./media/image600.png)
 
 Switch to the Algorithm tab of the dialog and set the thickness value to
 8 (m).
 
-![](./media/image579.png)
+![](./media/image601.png)
 
 In the model editing dialog, note that the layer is at the bottom of the
 list. This list is used as the stratigraphic scheme and we need the
 Quaternary layer on top of the stack, so drag it to reposition at the
 top of the list.
 
-![](./media/image580.png)
+![](./media/image602.png)
 
-![](./media/image581.png)
+![](./media/image603.png)
 
 Re-build the model and make the new layer visible in the map. Note that
 the "patches" type layer honours the drawn map exactly, unlike the
 bedrock model layers which predict the outcrop pattern automatically.
 
-![](./media/image582.png)
+![](./media/image604.png)
 
 In profile, see how the layer thins out towards the edges of the mapped
 polygon.
 
-![](./media/image583.png)
+![](./media/image605.png)
 
 Toggle the map view to isopach (thickness) view to get an impression of
 how the thickness setting has been graduated within the mapped polygon.
 
-![](./media/image584.png)
+![](./media/image606.png)
 
-![](./media/image585.png)
+![](./media/image607.png)
 
 Edit the map layer and add some windows into the layer.
 
-![](./media/image586.png)
+![](./media/image608.png)
 
 Re-build the model. Note how the hierarchy of windows and islands within
 the deposit is resolved automatically. This can be taken to any level or
 nesting required.
 
-![](./media/image587.png)
+![](./media/image609.png)
 
 By default, model extents are rectangular. To define a polygonal
 boundary, create a shape layer and draw the boundary. Make sure to
 convert the shape to a polygon.
 
-![](./media/image588.png)
+![](./media/image610.png)
 
 In the model editing dialog, click the *Extent From Shape* button and
 select the model boundary shape layer as the input.
 
-![](./media/image589.png)
+![](./media/image611.png)
 
-![](./media/image590.png)
+![](./media/image612.png)
 
 Re-build the model.
 
-![](./media/image591.png)
+![](./media/image613.png)
 
 Draw into the cross-section to use as an input to bedrock layers. Choose
 a drawing code for the layer. Here we use GRAVEL, but the code can be
 whatever you like. To draw geology, make the Geology layer active in the
 section window.
 
-![](./media/image592.png)
+![](./media/image614.png)
 
-![](./media/image593.png)
+![](./media/image615.png)
 
 Add the cross-section information as an input to Layer A. Go to the
 settings for Layer A and choose Cross-Sections as a new input to the
@@ -4371,21 +4628,21 @@ layer. When prompted, choose the drawing code "GRAVEL" as the filter for
 the input. This will use all instances of "Gravel" from all
 cross-sections as input to the layer calculation.
 
-![](./media/image594.png)
+![](./media/image616.png)
 
-![](./media/image595.png)
+![](./media/image617.png)
 
-![](./media/image596.png)
+![](./media/image618.png)
 
 Re-build the model. Note that the correlation linework in the
 cross-section has been used to control the Layer A surface.
 
-![](./media/image597.png)
+![](./media/image619.png)
 
 You can add models as a layer to the 3D view to visualise them. For more
 details, refer to the next chapter on using the 3D graphics window.
 
-![](./media/image598.png)
+![](./media/image620.png)
 
 ### Additional Tools
 
@@ -4400,20 +4657,20 @@ point object to a structural point that can be used in the modelling,
 first make the point layer active. ***\<Right-click>*** on the desired
 point and choose ***\<Add Dip Measurement>***
 
-![](./media/image599.png)
+![](./media/image621.png)
 
 Use the input dialog to set the DIP, AZIMUTH and RADIUS values. RADIUS
 controls the zone of influence of the data point. You can also set a
 GEOLOGY code if you wish to have a single point layer containing
 structural points from different model layers.
 
-![](./media/image600.png)
+![](./media/image622.png)
 
 The point becomes an arrow showing the AZIMUTH. The length of the arrow
 shows the RADIUS of influence the point will have if used in a
 calculation.
 
-![](./media/image601.png)
+![](./media/image623.png)
 
 #### Coverage Mode
 
@@ -4430,28 +4687,28 @@ from a Shapefile, but make sure they are polygons). After drawing each
 shape, ensure it is a polygon either by dragging the last node towards
 the first node to snap it, or using ***\<Right-Click> \<Make Polygon>***
 
-![](./media/image602.png)
+![](./media/image624.png)
 
 Here is an example if a coverage polygon drawn for a layer.
 
-![](./media/image603.png)
+![](./media/image625.png)
 
 Note that a coverage can be composed of multiple polygons, including
 polygons-with-holes (nested to any level of detail.
 
 Next, add the shape layer to the desired model layer as an input.
 
-![](./media/image604.png)
+![](./media/image626.png)
 
 When prompted to set the shape input as a COVERAGE layer, click
 ***\<Yes>***
 
-![](./media/image605.png)
+![](./media/image627.png)
 
 Note that shape layers which are acting as coverage layers are labelled
 thus in the input list.
 
-![](./media/image606.png)
+![](./media/image628.png)
 
 If you need to change the status of the layer you should delete it from
 the inputs list and then re-add it.
@@ -4459,13 +4716,13 @@ the inputs list and then re-add it.
 Calculate the model. Note that the calculation of the layer stays within
 the shapes of the coverage layer.
 
-![](./media/image607.png)
+![](./media/image629.png)
 
 Working at a higher resolution shows the effect of this more clearly,
 especially if the coverage map is very detailed with lots of small holes
 and islands.
 
-![](./media/image608.png)
+![](./media/image630.png)
 
 #### Control Points
 
@@ -4474,21 +4731,21 @@ act to remove an area of modelling and are a quick way to clean up
 models. Below is an example of a model layer with an area that needs to
 be cleaned up (highlighted by the arrows).
 
-![](./media/image609.png)
+![](./media/image631.png)
 
 To set a point as a control point, place the point in the desired
 location and then use ***\<Right-Click> \<Modelling Tools> \<Clean
 Up>***
 
-![](./media/image610.png)
+![](./media/image632.png)
 
 The point is displayed as a cross icon.
 
-![](./media/image611.png)
+![](./media/image633.png)
 
 Re-build the model.
 
-![](./media/image612.png)
+![](./media/image634.png)
 
 ### Model Outputs
 
@@ -4499,14 +4756,14 @@ Within these sub-folders you can find ESRI ASCII grids for base
 elevation and thickness and a series of geo-registered images as well as
 CSV files of the input points used in the modelling.
 
-![](./media/image613.png)
+![](./media/image635.png)
 
 # 3D Graphics
 
 This section provides details on how to operate the 3D graphics
 component within Groundhog.
 
-![](./media/image614.jpeg)
+![](./media/image636.jpeg)
 
 *Photo by Nathan Duck on Unsplash*
 
@@ -4521,33 +4778,33 @@ geology models.
 
 ## First Use
 
-To open the 3D window, click the ![](./media/image615.png)3D window
+To open the 3D window, click the ![](./media/image637.png)3D window
 button and you will be presented with the user interface.
 
 ## User Interface
 
-![](./media/image616.png)
+![](./media/image638.png)
 
 The window has three main areas of control:
 
 ### The control panel
 
-![](./media/image617.png)
+![](./media/image639.png)
 
 The control panel is where you will manipulate what data you are viewing
 and how you will view it in 3D. The controls are split into tabs for
 easy navigation and there are three controlling buttons at the top:
 
-1.  ![](./media/image618.png) Move: This will allow you to rotate, pan
+1.  ![](./media/image640.png) Move: This will allow you to rotate, pan
     and zoom in the 3D scene.
 
-2.  ![](./media/image619.png) Pick: This button is currently in beta but
+2.  ![](./media/image641.png) Pick: This button is currently in beta but
     when the window is in this mode, you can no longer move around but
     instead select objects by clicking them. When an object is selected
     (clicked on) it will open in the object explorer tab which we will
     visit later. (As his is in beta only some data types are supported)
 
-3.  ![](./media/image620.png)Save: Self-explanatory but with many
+3.  ![](./media/image642.png)Save: Self-explanatory but with many
     functions, the save button will allow you to save a variety of items
     from the configuration of the window (camera position and layers) to
     mp4 videos you record to .OBJ exports of supported layers in the
@@ -4555,14 +4812,14 @@ easy navigation and there are three controlling buttons at the top:
 
 ### Layer Control
 
-![](./media/image621.png)The first of the tabs in the control panel is
+![](./media/image643.png)The first of the tabs in the control panel is
 the **layer control** with which you will be familiar from the map and
 section window. Along the top, left to right, there is:
 
 1.  The add layer button, opening the usual dialogue
 
 2.  The global setting button which opens this dialogue:
-    ![](./media/image622.png)
+    ![](./media/image644.png)
 
 > Here you can set the vertical scale of the window, the maximum
 > vertical scale for the slider and turn on and off the axes in the
@@ -4577,7 +4834,7 @@ section window. Along the top, left to right, there is:
 Note: when adding the current map window, you will be presented with the
 following option dialog box
 
-![](./media/image623.png)
+![](./media/image645.png)
 
 Here you can either choose to view the map as a flat surface at a fixed
 elevation (e.g. for points) or as grid elevation which will create a
@@ -4585,7 +4842,7 @@ surface from a sampling the elevations on a chosen grid
 
 The next item is the representation of a layer.
 
-![](./media/image624.png)
+![](./media/image646.png)
 
 Here you can see the name of the layer, the icon of the layers type, in
 this case borehole, a checkbox for the visibility of the layer, a slider
@@ -4607,7 +4864,7 @@ drawing order and allow certain objects to be seen through others.
 
 ### 
 
-### ![](./media/image625.png)Object Explorer
+### ![](./media/image647.png)Object Explorer
 
 The next tab is the **object explorer** which allows a particular layer
 to be interrogated. By opening the above borehole layer in the object
@@ -4621,7 +4878,7 @@ can be accessed through the settings button.
 If you double click an object in the explorer, that object will be
 "opened".
 
-![](./media/image626.png)Here, the object BH502 has been opened and you
+![](./media/image648.png)Here, the object BH502 has been opened and you
 can now see all of the logs and manipulate them as with any other
 object.
 
@@ -4630,7 +4887,7 @@ of objects.
 
 ### Clipping Controls
 
-![](./media/image627.png)After the object explorer, you will find the
+![](./media/image649.png)After the object explorer, you will find the
 **clipping controls** tab. The add button will give you two options:
 
 1.  Add new clipping Plane: this will add a new clipping plane to the
@@ -4640,29 +4897,29 @@ of objects.
 This is particularly useful for viewing 3D geological models produced in
 Groundhog Professional.
 
-![](./media/image628.png)![](./media/image629.png)
+![](./media/image650.png)![](./media/image651.png)
 
 When you create a clipping plane, you will be greeted with a control
 that looks like this:
 
-![](./media/image630.png)To rotate the plane, drag the circle at the end
+![](./media/image652.png)To rotate the plane, drag the circle at the end
 of the line, and to move the center point of the plane, drag the center
 circle in that direction.
 
 If you are struggling with this control, by clicking the settings
 button, you can also incrementally change the positions.
 
-![](./media/image631.png)A is for azimuth as an angle in degrees.
+![](./media/image653.png)A is for azimuth as an angle in degrees.
 
 If you choose a **clipping slice** the controls are much the same, with
 the addition of a thickness. On the graphical control:
-![](./media/image632.png)and by buttons is represented by T:
-![](./media/image633.png)
+![](./media/image654.png)and by buttons is represented by T:
+![](./media/image655.png)
 
 The difference with a clipping slice over a clipping plane is that there
 is somewhat a slice of cake taken out of a model :
 
-![](./media/image634.png)
+![](./media/image656.png)
 
 ### Configurations
 
@@ -4670,10 +4927,10 @@ is somewhat a slice of cake taken out of a model :
 is to provide shortcuts to nice "views" of your data.
 
 If you like an angle of looking at your data or particular clip, you can
-press the save button ![](./media/image620.png)and all the information
+press the save button ![](./media/image642.png)and all the information
 will be saved, a link to it being shown then in the configurations tab.
 
-![](./media/image635.png)Select the saved configuration you would like
+![](./media/image657.png)Select the saved configuration you would like
 to see and you will be taken there.
 
 While a configuration is selected, selecting this button will allow you
@@ -4683,41 +4940,41 @@ The bin will remove all configurations.
 
 ### The Hot Bar
 
-![](./media/image636.png)
+![](./media/image658.png)
 
 The hot bar is the area at the bottom of the groundhog 3D window which
 looks like the screenshot above. Here you can find useful information
 and some quick access tools.
 
-The first item is the loading bar. ![](./media/image637.png) This will
+The first item is the loading bar. ![](./media/image659.png) This will
 give you information on the progress of any actions such as loading and
 saving.
 
-Next is the vertical exaggeration slider. ![](./media/image638.png)By
+Next is the vertical exaggeration slider. ![](./media/image660.png)By
 moving this slider, you will increase or decrease the vertical
 exaggeration on the window.
 
 The following tools you will find are the recording and playback tools.
-![](./media/image639.png) In order to create a playback, click the
+![](./media/image661.png) In order to create a playback, click the
 record button, maneuver around the scene in the order you wish to
 re-watch and, finally, click the stop button that will have replaced the
-record button.![](./media/image640.png)
+record button.![](./media/image662.png)
 
 In order to watch your playback, simply click the play button.
 
 When the play button becomes available, you will be able to save a
-playback as an MP4 by clicking the save button ![](./media/image620.png)
+playback as an MP4 by clicking the save button ![](./media/image642.png)
 and selecting the playback option from the dropdown.
 
 Finally, on the hot bar, there is the message area.
-![](./media/image641.png) Useful tips will be displayed here.
+![](./media/image663.png) Useful tips will be displayed here.
 
 ### The Scene
 
 This is the final area of the 3D window and is where all of the data
 appears.
 
-![](./media/image642.png)
+![](./media/image664.png)
 
 This area is very minimal, here we have:
 
@@ -4742,18 +4999,18 @@ Navigation of the scene is broken into three types:
 
 ### Borehole Settings
 
-> ![](./media/image643.png)
+> ![](./media/image665.png)
 
 ## Saving
 
-The save button ![](./media/image620.png) is a multi-functional save
+The save button ![](./media/image642.png) is a multi-functional save
 tool which will allow the saving of any savable layers or items that are
 currently existent within your current session. These could include 3D
 objects, videos and the configuration of your window.
 
 When the save button is pressed, the following dropdown box will appear.
 
-![](./media/image644.png)
+![](./media/image666.png)
 
 All of the options in the dropdown can be saved to their stated format
 and the possible options are as follows.
@@ -4778,7 +5035,7 @@ all be saved to the folder of your choosing.
 Keeping consistent with the other layers, surfaces too will be export as
 .OBJ files. There will be three files output.
 
-![](./media/image645.png)
+![](./media/image667.png)
 
 These three should be kept together; there is one for the shapes, one
 for the colours and optionally one which will be the image used for the
@@ -4793,7 +5050,7 @@ so that the information can be collected. Please do not interrupt this.
 
 ### Configurations
 
-![](./media/image635.png)The final option is the current map window
+![](./media/image657.png)The final option is the current map window
 configuration and as previously mentioned will save the view on the
 screen as a waypoint which you will be able to click and return to at a
 later date. Once you have provided a memorable name, it will appear in

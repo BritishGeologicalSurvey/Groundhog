@@ -1,8 +1,8 @@
 *BGS Groundhog Desktop*
 
-User Guide v2.3.0 (BETA)
+User Guide v2.4.0 (BETA)
 
-June 2021
+August 2021
 
 ![](./media/image1.png)
 
