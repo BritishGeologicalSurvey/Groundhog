@@ -1,8 +1,19 @@
 <!-- _coverpage.md -->
-
-
-
 ![logo](_media/logo.png)
+
+# Notice
+> **Groundhog is a legacy product and is no longer actively supported. 
+> The most recent version is made available for download from the 
+> [BGS website](https://www.bgs.ac.uk/technologies/software/groundhog/).**
+> 
+> **This accompanying documentation along with the social media channels 
+> linked below are retained for reference only. They are no longer 
+> monitored or maintained and will be rationalised/removed in due course.**
+
+-------
+
+
+
 
 # BGS Groundhog<small>2.3.0 BETA</small>
 
